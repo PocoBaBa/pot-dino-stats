@@ -47,8 +47,7 @@ na=False)]
             st.metric("Group Size", f"{int(dino_row['Group Size'])}")
 
         st.markdown(f"**Clampable By:** {dino_row['Clampable By']}")
-        st.markdown(f"**Subspecies Bonuses:**
-{dino_row['Subspecies']}")
+        st.markdown(f"**Subspecies Bonuses:** {dino_row['Subspecies']}")
 
         # 4. Filtered Abilities Section (The Sub-Page Heist Solution!)
         st.markdown("---")
