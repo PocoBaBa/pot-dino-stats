@@ -66,7 +66,7 @@ na=False)]
         if not matching_abilities.empty:
             for _, row in matching_abilities.iterrows():
                 with st.expander(f"{row['Slot'].upper()}: {row['Ability Name']}"):
-                    st.write(f"**Damage:** {row['Damage']} | **Cooldown:** {row['Cooldown']}")
+                    st.write(f"**Damage:** {row['Damage']} | **Cooldown:** {row['Cooldown']}s")
                     st.info(row['Description'])
         else:
             st.warning("No combat abilities documented for this dinosaur yet.")
