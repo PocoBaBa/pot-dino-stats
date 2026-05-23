@@ -1,0 +1,656 @@
+Dino ID,Slot,Ability Name,Description,Damage,Stamina Cost,Cooldown
+achillo,Passives,Strong Claws,Cannot be knocked off while latched.,-,FREE,-
+achillo,Passives,Strong Grip,Gain 200% increased armor for 5 seconds. Must be latched to activate. Buff is decaying over time.,-,FREE,-
+achillo,Head,Bite,Causes medium damage.,55 (-40% latched),FREE,1.5s
+achillo,Head,Raptor Strikes,"A quick attack that increases in power with each successful hit. Stacks up to 5 times, stacks last 30 seconds. While latched, this attack becomes a powerful attack that has a scaling stamina cost.",6-54 (140 damage -40% while latched),750,1s (1.5s while latched)
+achillo,Senses,Hunter's Instinct,Increases land movement speed by 5% when not in combat.,-,800,-
+achillo,Senses,Mob Boss,"Increases the damage of all small Raptors in your group by 10% when within 75m of you. Stacks up to 4 times, for each small Raptor in your group. Disabled if there is more than one Achillobator in the group.",-,800,-
+achillo,Senses,Lone Hunter,Gain 10% increased attack damage when not in a group.,0.1,700,-
+achillo,Front Limb,Claw Attack,"Causes medium damage, and deals additional damage if used while pounced onto an enemy.",60 (-30% latched),200,4s
+achillo,Front Limb,Cruel Swipe,A claw attack that deals more damage to heavier enemies.,"30 (scales from 5-130 base damage depending on target's combat weight, this is not piercing damage, regular damage calculations apply)",450,6s
+achillo,Hide,Strength in Numbers,Increases your armor by 10% for and to each nearby small raptor in your group within 75m.,-,500,-
+achillo,Hide,Hollow Bones,Reduces jumping stamina cost by 20%.,-,400,-
+achillo,Hide,Survival of the Fittest,Increases speed by 5% while bleeding/envenomed. Does not activate when in a group.,-,500,-
+achillo,Legs,Leader of the Pack,"Increases your speed by 5% while grouped with small raptors, who gain a 50% increased jump height when they are within 75m of you. Disabled if there is more than one Achillobator in the group.",-,700,-
+achillo,Legs,Pounce,"Latch onto another creature with a combat weight of 4,000 or higher, allowing you to perform attacks and other abilities. Release from the latch by jumping. Will automatically release when out of stamina. Only works on heavy targets. Deal 40% less damage while latched.",-,700,-
+achillo,Legs,Ripping Kick,"Lunges forward, dealing medium bleed damage. Costs 4 Stamina to use.",40 + 0.4 Bleed,500,4s
+achillo,Tail,Counterbalance,Use 15% less stamina when running.,-,500,-
+achillo,Tail,Rudder,"Doubles jump control, reduces jump stamina cost by 20%, and reduces incoming fall damage.",-,300,-
+achillo,Voice,Bark,Increases the attack of all raptors in your group by 15% within 30 meters for 30 seconds. Able to stack up to 10 times. Costs 10 Stamina to use.,+15% per stack,700,30s
+achillo,Voice,Mocking Cackle,Reduce effectiveness of bucking by 50% for 30s to all dinosaurs in a 15m radius. Costs 20 Stamina to use.,-,800,360s
+achillo,Voice,Panicking Sprint,Replenishes 25 stamina and reduces the attack damage of all creatures within 30 meters by 20% for 30 seconds. Costs 10 Stamina to use.,-20%,900,180s
+achillo,Voice,War Cry,30% increase to armor and stamina recovery of other small raptors within 30 meters in your group for 120 seconds. Costs 20 Stamina to use.,-,800,300s
+albert,Passives,Armored Skull,Take no extra damage from head attacks.,-,FREE,-
+albert,Passives,Counterattack,Automatically counter attack after successfully blocking. Gain 60% increased knockback resistance while active.,85,FREE,7s
+albert,Generic,Block,"Negates damage of an incoming attack for up to 10 seconds if it connects with the head, neck, or front of the body. Uses stamina when activated. Costs 1 Stamina to activate, and 1 Stamina per second to maintain.",-30%,FREE,5s
+albert,Head,Sever Tendon,"A bite attack applying the 'Sliced' Debuff. Sliced reduces the movement speed of the target by 2%, and stacks up to 5 times. Upon reaching 5 stacks of Sliced, the target gains immunity to any additional Sliced stacks for 5 minutes.",40,750,1.5s
+albert,Head,Headbutt,A quick headbutt attack that causes low damage.,40,FREE,1.25s
+albert,Head,Head Slam,A slamming headbutt attack that costs stamina and deals high damage. Costs 3 Stamina to use.,85,900,3s
+albert,Senses,Frilled Bond,Increases damage by 10% and armor by 10% to yourself and any Ceratopsians in your group within 50 meters. Stacks up to 4 times.,+10% per stack,700,-
+albert,Senses,Pivot,Improves turn speed by 25% while blocking.,-,800,-
+albert,Hide,Off Guard,"You are no longer able to use Counterattack. Instead, you gain 75 additional maximum health. 7.5% increased damage resistance while using Block.",-,"1,100",-
+albert,Hide,Razor Crest,"Increases the damage of your Counterattack by 50%, and regain 5% of your health over a span of 20 seconds if Counterattack strikes a target. 50% less effective when Bleeding.",+50% to Counterattack (Increases Counterattack damage to 127.5 from 85),"1,000",-
+albert,Hide,Second Wind,Gain 150% increased stamina recovery for 12 seconds after receiving a hit while blocking.,-,"1,000",12s
+albert,Hide,Solid Frill,"When hit while blocking, gain 15% armor for 60 seconds. Stacks up to 10 times. New stacks will refresh the duration.",-,"1,000",-
+albert,Back Limb,Back Kick,A kick attack that causes high damage. Requires slow movement to use. Costs 3.5 Stamina to use.,60,800,3s
+albert,Back Limb,Charge,"Charge forward in a line for up to 6 seconds, causing damage to anything you hit. Cannot be interrupted by Knockback. Costs 1.5 Stamina per second to use.",100,"1,100",20s
+albert,Back Limb,Stomp,"Stomp the ground in a 10 meter radius to damage all nearby targets. Damage decreases with distance. A smaller radius affects flying and swimming targets. While stomping, you are immune to knockback and spike damage. Costs 8 Stamina to use.",120,"1,000",20s
+albert,Back Limb,Swerve,A bite attack that rapidly turns to face behind you and change your direction. Costs 5 Stamina to use.,80 + 8 Knockback,600,8s
+albert,Voice,Enrage,Increases your damage by 15% for 60 seconds. This ability can be used if Deafened. Costs 5 Stamina to use.,0.15,400,80s
+albert,Voice,Quick Vigor,For 30 seconds your Block has an instant cooldown and does not use any stamina. Reduces Counter attack cooldown by 25%. 7.5% increased damage resistance while using Block. The ability can be used if Deafened. Costs 5 Stamina to use.,-,400,90s
+albert,Voice,Vengeful Roar,"For 60 seconds, your Block now reflects damage equal to 75% of any incoming attacks as piercing damage. This ability can be used if Deafened. Costs 5 Stamina to use.",75% Reflect damage,"1,000",120s
+alio,Head,Bite,Causes medium damage.,45,FREE,1s
+alio,Senses,All For One,"Gain 8% increased damage, which stacks up to 5 times, and 10% increased health recovery rate when in a group with other carnivores of 3 token size or less. Health recovery does not stack.",+8% per stack,"1,000",-
+alio,Hide,Dense Feathers,Increases bleed healing by 30%.,-,500,-
+alio,Legs,Long Distance Runner,Reduces running stamina drain by 15%.,-,"1,100",-
+alio,Legs,Leap,"Increases jump height by 45%, doubles air control, and increases maximum fall death speed by 20% decreasing fall damage.",-,"1,200",-
+alio,Tail,Tail Attack,Causes knockback. (Does not cause knockback),15 + 0 Knockback,100,3s
+allo,Head,Hatchet Bite,A bite attack that causes low damage and high bleed. Costs 7 Stamina to use.,70 + 0.45 Bleed,400,4s
+allo,Head,Bite,Causes medium damage,60,FREE,1.5s
+allo,Front Limb,Claw Attack,A claw attack that causes low damage and high bleed.,40 + 0.45 Bleed,200,3s
+allo,Hide,Resilient Scales,Increases bleed and venom healing by 20%.,-,800,-
+allo,Legs,Strong Legs,Take 60% less knockback and 15% Fracture healing.,-,"1,100",-
+allo,Legs,Long Distance Runner,Reduces running stamina drain by 15%.,-,"1,100",-
+allo,Tail,Tail Attack,Causes knockback.,15 + 6 Knockback,100,4s
+amarg,Character Trait,Spiked Hide,Protective spikes that inflict bleed if they are hit with an attack. Only available on the Angulus and Serratus sub-species.,4.5 + 0.25 Bleed,FREE,-
+amarg,Head,Headbutt,A quick headbutt attack that causes medium damage and low bleed. Can be used while running.,40 + 0.4 Bleed,FREE,2.5s
+amarg,Senses,Sturdy,Immune to knockback effects.,-,600,-
+amarg,Senses,Lone Survivor,10% armor increase and x2 acceleration when not in a group.,-,700,-
+amarg,Front Limb,Stomp,"Stomp the ground to damage all nearby targets within a 10 meter radius. Damage decreases with distance. A smaller radius affects flying and swimming targets. While stomping, you are immune to knockback and spike damage. Costs 7.5 Stamina to use.",120,800,20s
+amarg,Hide,Resilient Scales,Increases bleed and venom healing by 20%.,-,800,-
+amarg,Tail,Tail Attack,A tail attack that causes light damage and knockback.,45 + 12 Knockback,500,3s
+anky,Passives,Adrenaline Rush,"Gain up to 50% reduced attack cooldown between 50% and 100% health, scaling with the amount of health missing.",-,FREE,-
+anky,Passives,Ironclad,"Heal status effects 100% faster. While crouching, gain 150% increased stamina recovery. Additionally, while crouching and not moving, gain 20% increased bleed healing rate.",-,FREE,-
+anky,Passives,Crouched Stance,"Crouching for 5 seconds transitions you into 'Crouched Stance', enabling the use of Area of Effect Tail attacks.",-,FREE,-
+anky,Passives,Hardened Hide,Base armor increased by 50%. (Ability is not listed with other passives.),-,FREE,-
+anky,Senses,Shockwave,Area of Effect Attacks now have 25% increased range. Area of Effect attacks deal 50% reduced damage to group members.,-,800,-
+anky,Senses,Killing Blow,Deal 20% increased damage while a creature not in your group has a fracture or bone break within 50 meters.,0.2,"1,000",-
+anky,Senses,Dazing Impacts,"Your Area of Effect attacks now apply 'Dazed' for 3 seconds. While Dazed, targets have reduced movement speed by 5% and can't use active abilities. Targets can only be Dazed every 40 seconds.",-,800,-
+anky,Senses,Clubbed Fortress,Increases your and all group members' armor by 25% within 50 meters. Works outside of group despite not displaying any icons.,-,800,-
+anky,Front Limb,Tailspin,A 360 degree tail swing attack that deals low damage and has a low cooldown. Deals no fracture damage. Causes knockback. Costs 8 Stamina to use.,60 ×2 + 16 Knockback,600,4s
+anky,Front Limb,Swerve,A tail attack that spins you 180 degrees and deals fracture damage. Costs 12 Stamina to use.,80 + 16 Fracture,600,9s
+anky,Hide,Rushed Stride,"Crouch Stance now activates 50% faster. For 10 seconds after leaving Crouched Stance, you now gain a 25% sprinting speed boost, 25% improved turning radius, 100% acceleration boost, and makes you immune to knockback.",-,800,-
+anky,Hide,Reinforced Plates,Gain 100% armor when below 50% health.,-,800,-
+anky,Hide,Fortification,"When hit by an enemy attack, gain 5% additional armor for 240 seconds. Stacks up to 10 times. New stacks will refresh the duration.",-,"1,000",-
+anky,Legs,Tireless,Reduces all attacks' stamina cost by 30%.,-,800,-
+anky,Legs,Razorback,"While you are in Crouched Stance, you provide 25% increased damage to your group members within 50 meters.",+25% (does not apply solo),800,-
+anky,Legs,Jagged Scutes,"While you are in Crouched Stance, enemies that attack you will receive a small amount of Fracture damage.",5 Fracture,"1,000",-
+anky,Tail,Smash,A tail attack that slams the ground and deals high damage in a 10 meter radius. Deals knockback. Must be in 'Crouched Stance' to be able to use. Costs 20 Stamina to use.,220 + 9 Knockback,900,10s
+anky,Tail,Tail Slam,A tail attack that slams the ground and deals medium damage in a 5 meter radius. Deals knockback. Must be in 'Crouched Stance' to be able to use.,80 + 4 Knockback,100,2s
+anky,Tail,Tail Attack,"A tail attack that deals low damage, a small amount of Fracture, and applies a stack of 'Tenderized' to its target. Upon reaching 10 stacks of Tenderized, your target will lose its Bone Break immunity for 5 minutes. Cannot be used in Crouched Stance.",45 + 18 Fracture,FREE,2.5s
+anky,Tail,Bone Snap,"Hold to charge the attack, dealing increasing Fracture damage the longer it's charged. Can trigger a Bone Break. Also applies a stack of 'Tenderized' debuff. Upon reaching 10 stacks of Tenderized, your target will lose its Bone Break immunity for 5 minutes. Cannot be used in Crouched Stance. Costs 10 Stamina to use.",105 + 40 Fracture,700,3s
+bars,Passives,Ironclad,10% increased armor.,-,FREE,-
+bars,Passives,Bipedal Stance,"Pressing the crouch button will instead raise you up onto 2 legs into a bipedal stance. While bipedal, gain +20% stamina recovery and slightly decrease turn radius.",-,FREE,-
+bars,Senses,Shockwave,Area of Effect attacks now have 25% increased range. Area of Effect attacks deal 50% reduced damage to group members.,-,800,-
+bars,Senses,Musician,20% faster vocal ability cooldowns.,-,700,-
+bars,Senses,Family Chorus,"Increase stamina recovery when not grouped. While grouped, you and each Hadrosaur within 50 meters gain 10% stamina recovery. Stacks up to 4 times.",-,800,-
+bars,Senses,Dazing Impacts,"Your Area of Effect attacks now apply 'Dazed' for 3 seconds. While Dazed, targets have reduced movement speed by 5% and can't run or use active abilities. Targets can only be Dazed every 40 seconds (incorrectly says 20 seconds in game).",-,800,-
+bars,Front Limb,Kick,A kick attack that causes low damage and knockback. Will put you in bipedal stance when used.,40 + 8 Knockback,300,3.5s
+bars,Hide,Thick Skin,"Gain 25% increased knockback resistance. While in bipedal stance, gain 25% increased attack damage.",0.25,800,-
+bars,Hide,Die Hard,"Gain up to 4x increased stamina recovery and 50% faster attack cooldowns while below 35% health, scaling with the amount of health missing.",-,800,-
+bars,Legs,Dash,Quickly dash forward for up to 3 seconds. Must be Sprinting to use. Cannot be interrupted by Knockback. Costs 1 Stamina per second to use.,-,800,20s
+bars,Legs,Braced Legs,"Reduces uphill slowdown by 50%, increases downhill speed by 5%, and reduces falling damage by 10%.",-,800,-
+bars,Tail,Smash,Wind up this attack for up to 4.5 seconds and inflict damage based on the length of time it's charged for. Reaches a 15 meter Area of Effect distance. Puts you back into quadrupedal stance. Costs 8 Stamina to use.,150,900,12s
+bars,Tail,Tail Slam,A tail attack that slams the ground and deals medium damage. Reaches a 5 meter Area of Effect distance. Puts you back into quadrupedal stance. Costs 2.5 Stamina to use.,70,800,4.5s
+bars,Tail,Tail Attack,An attack that causes light damage.,20 + 12 Knockback,FREE,4s
+bars,Tail,Sweep,Low reaching tail attack that deals medium damage and no knockback.,110,500,7s
+bars,Voice,Survival Calls,"Provides a set of abilities: Gorge, Herdsong, Scent Tracker. See 'Details' for more information.",-,800,-
+bars,Sub-Voice,Gorge,Call that increases Food and Water intake by 50% within 50 meters for 90 seconds for you and all nearby group members. Costs 8 Stamina to use.,-,-,120s
+bars,Sub-Voice,Herdsong,Boosts knockback resistance by 50% for 120 seconds for you and all group members within 50 meters. Costs 5 Stamina to use.,-,-,240s
+bars,Sub-Voice,Scent Tracker,Passively tracks the distance to the nearest berry bush within 200 meters.,-,-,-
+bars,Voice,Combat Calls,"Provides a set of abilities: Rallying Call, Resilient Cry, Deafening Bellow. See ' Details' for more information.",-,800,-
+bars,Sub-Voice,Rallying Call,A call that increases all group members armor by 25% within 50 meters. Costs 8 Stamina to use.,-,-,240s
+bars,Sub-Voice,Resilient Cry,Call that increases Bleed and Venom healing rates by 20% within 50 meters for 60 seconds for you and all nearby group members. Costs 8 Stamina to use.,-,-,90s
+bars,Sub-Voice,Deafening Bellow,"A call that applies the 'Deaf' status to all dinosaurs within 50 meters. While deaf, you cannot receive any buff or debuff from any vocal abilities. Costs 8 Stamina to use.",-,-,300s
+campto,Head,Bite,Causes low damage.,30,FREE,1s
+campto,Hide,Thick Scutes,Improves health recovery rate by 20%.,-,800,-
+campto,Hide,Second Wind,Gain 150% increased stamina recovery for 8 seconds after receiving a hit in combat.,-,"1,000",8s
+campto,Hide,Resilient Scales,Increases bleed and venom healing by 20%.,-,700,-
+campto,Legs,Hop Away,Rapidly hop forwards at a speed of 1700 to escape danger for up to 15 seconds. Uses 1 Stamina per second.,-,400,8s
+campto,Voice,Alert Call,Group members deal 20% increased damage with their next attack when out of combat for 60 seconds. Costs 20 Stamina to use.,0.2,700,420s
+cera,Passives,Cracked Scutes,"Build up 1 stack of Cracked Scutes every 30 seconds, for a maximum of 3 stacks, even through combat (even though it doesn't say that). Reduces incoming damage by 15% per active stack. Incoming attacks will remove 1 stack per hit. While a stack is active, attackers receive reflect damage when hitting certain areas of the body.",-,FREE,-
+cera,Generic,Carcass Tracker,Passively tracks dinosaur carcasses within 250 meters. Also gain 25% increased eating speed.,-,"1,000",-
+cera,Head,Swerve,A bite attack that rapidly turns to face behind you and change your direction. Costs 7.5 Stamina to use.,80 + Turn 180°,600,8s
+cera,Head,Rapid Strikes,"A fast attack that causes more damage with each consecutive hit, dealing 100% increased damage within 75 meters of a player's corpse. Stacks up to 5 times, stacks last 30 seconds.",4-44 (8-88 near corpse),500,1s
+cera,Head,Thrash,A powerful bite attack that also causes recoil damage.,90 + 50% Recoil,800,15s
+cera,Head,Charged Bite,Charge up the attack and inflict Fracture based on how long it's held. This attack cannot trigger a full Bone Break. Costs 7 Stamina to use.,45 + 18 Fracture,700,5s
+cera,Head,Bite,Causes medium damage.,40,FREE,1s
+cera,Senses,Bulwark,"Deal 10% reduced damage, but gain 50% increased health recovery rate.",-10%,800,-
+cera,Senses,Berserker,"When low on health, your attacks cooldown 25% faster and deal 30% more damage.",0.3,800,-
+cera,Senses,All For One,"Gain 8% increased damage, which stacks up to 5 times, and 10% increased health recovery rate when in a group with other carnivores of 3 token size or less. Health recovery does not stack.",+8% per stack,"1,000",-
+cera,Hide,Solid Frame,"Gain 75 increased maximum health, but lose 5% status effect heal.",-,800,-
+cera,Hide,Robust Jaws,"Deal 25% more damage, but lose 10% maximum health.",0.25,800,-
+cera,Hide,Regeneration,"Gain 25% increased health recovery from healing buffs. Increases Bleed heal, Fracture heal, Poison heal, Venom heal, and Toxin heal by 20%.",-,800,-
+cera,Hide,Carrion Feeder,"While near a player's corpse, all enemies within 75 meters of you deal 15% reduced damage. Stacks up to 3 times.",-15% per stack,800,-
+cera,Legs,Torment,"While near a player body, enemies within 75 meters have 10% reduced armor. Does not stack.",-,800,-
+cera,Back Limb,Taunt,"Activate to begin channeling a Taunt. While Taunt is active, it reduces your incoming damage by 40% and slows enemies within 50 meters by 10%. The Taunt will cancel if you reach 30% health or less, and automatically trigger a rapid spin to face you behind and grants 5% increased speed for 10 seconds. Cannot run while channeling.",-,800,10s
+cera,Back Limb,Shove,"Lunge forward, knocking back enemies. Costs 5 Stamina to use.",20 + Knockback,500,5s
+cera,Back Limb,Lunge,"A lunging bite attack that jumps forward and then back, dealing 100% increased damage within 75 meters of a player's corpse. Costs 2.5 Stamina to use.",60 (120 near a corpse),300,10s
+cera,Tail,Juke,Rapidly turn to face behind you and change your direction. Costs 2.5 Stamina to use.,-,500,5s
+conc,Passives,Slippery Scales,"While wet, your bucking is 25% stronger.",-,FREE,-
+conc,Head,Riptide,Causes medium damage. Deals 65% increased damage if the target is wet.,45 (74.25 if target is wet),450,3s
+conc,Head,Rend,A delayed attack that deals medium Bleed and medium damage. Can trigger 'Bloodthirsty' if equipped. Costs 5 Stamina to use.,80 + 0.5 Bleed,450,10s
+conc,Head,Bite,Causes medium damage.,50,FREE,1s
+conc,Senses,Nictitating Membrane,"Gain the ability to dive underwater and increases water turning and acceleration by 25%, and water movement speed by 75%. See clearer when underwater, during fog, and during rainstorms. Also passively tracks the distance to the nearest fish within 100 meters.",-,450,-
+conc,Senses,Frenzy,50% increased stamina recovery and 100% increased acceleration when within 50 meters of a bleeding creature.,-,"1,000",-
+conc,Senses,Bloodthirsty,"While landing an attack that deals bleed, heal 15% health over 60 seconds. 50% less effective when Bleeding. Works through combat timer. Can be triggered only once every 60 seconds.",-,"1,200",60s
+conc,Senses,All For One,"Gain 8% increased damage, which stacks up to 5 times, and 10% increased health recovery rate when in a group with other carnivores of 3 token size or less. Health recovery does not stack.",+8% per stack,"1,000",-
+conc,Front Limb,Slash,A claw attack that causes bleed. 35% increased Bleed if underwater and 35% increased damage if on land. Can trigger 'Bloodthirsty' if equipped.,"45 + 0.35 Bleed (60.75 damage on land, 0.4725 Bleed in water)",700,6s
+conc,Front Limb,Claw Attack,A claw attack that causes low damage and high bleed. Can trigger 'Bloodthirsty' if equipped.,35 + 0.4 Bleed,300,3s
+conc,Hide,Streamlined,15% increased swim speed. 50% increased health recovery rate while diving.,-,900,-
+conc,Hide,Quilled Hide,Increases Bleed damage from your attacks by 50% when you are below 50% health.,+50% Bleed,800,-
+conc,Hide,Bright Sail,"Increases your armor up to 15% and your bleed damage up to 20% if inflicted with Bleed, Venom, Toxin, Poison, or Fracture. Scales based on status amount. Does not stack from multiple status effects.",up to +20% Bleed,900,-
+conc,Back Limb,Surge,"Increases oxygen capacity. Activate while swimming to dart forward and bite. Hitting a target reduces their swim speed by 15% for 15 seconds, up to 3 stacks, and tears off a meat chunk. Eating it restores 40% stamina and 40% oxygen. Can be triggered only once every 30 seconds. Costs 2.5 Stamina to use.",60,"1,200",15s
+conc,Back Limb,Ripping Kick,"Lunges forward, dealing medium bleed damage. Can trigger 'Bloodthirsty' if equipped. Costs 5 Stamina to use.",40 + 0.4 Bleed,500,4.5s
+conc,Voice,Snarl,Reduces Bleed healing for all creatures not in your group within 50 meters by 35% for 60 seconds. Costs 5 Stamina to use.,-,500,210s
+conc,Voice,Muffled Roar,"Increases swim speed by 30%, improves swim turning by 25%, and increases all status effect healing by 50% for 3 minutes. Can only be used while diving, and will be interrupted if you exit water. This ability can be used if Deafened. Costs 10 Stamina to use.",-,700,180s
+conc,Voice,Fishy Breath,Applies your most recent buff acquired from eating a fish to all creatures in your group within 50 meters. Only usable while in a group. Costs 25 Stamina to use.,-,300,600s
+dasp,Generic,Bite,Causes medium damage.,60,FREE,1.5s
+dasp,Head,Shatter,A rapid triple bite that deals increasing Fracture damage for each additional hit you land. This attack cannot trigger a full bone break. Costs 8 Stamina to use.,20 + 5.25 Fracture (+25% Fracture with each consecutive landed bite),700,6s
+dasp,Head,Heavy Bite,A strong but delayed bite.,90,"1,200",8s
+dasp,Head,Bone Snap,Wind up this attack and inflict Fracture based on the length of time it's charged for. Can trigger a Bone Break on the target if they have a high amount of Fracture. Costs 8 Stamina to use.,75 + 20 Fracture,900,6s
+dasp,Head,Piercing Bite,"Deals a high amount of raw damage, ignoring the armor and weight of the target.",75 Piercing,500,20s
+dasp,Senses,Tyrant Ally,"While in a group with other Tyrannosaurs, gain 10% increased armor. Also applies to each Tyrannosaur in your group within 50 meters of you. Stacks up to 2 times.",-,"1,200",-
+dasp,Senses,Feral Instincts,Deal 20% increased piercing damage.,+20% on Piercing Bite,700,-
+dasp,Senses,Carnage,Increases attack by 30% when within 75 meters of a corpse.,0.3,"1,000",-
+dasp,Senses,Blunt Teeth,Deal 15% more Fracture damage. Bone Snap now uses half as much stamina. Deal 10% increased damage while a creature not in your group has a fracture or bone break within 50 meters.,-,700,-
+dasp,Hide,Thin Scutes,Receive 12.5% reduced damage from lighter opponents and take 6.25% increased damage from heavier opponents. Increases health recovery rate by 15% and doubles bucking stamina drain. Increases bleed and venom healing by 15%.,-12.5%/+6.25%,700,-
+dasp,Hide,Dense Scales,Receive 12.5% reduced damage from heavier opponents and take 6.25% increased damage from lighter opponents. Increases health recovery rate by 15%. Increases bleed and venom healing by 15%.,-12.5%/+6.25%,700,-
+dasp,Legs,Strong Legs,Take 60% less knockback and 15% increased bone break healing.,-,"1,100",-
+dasp,Legs,Skydiver,"Take 50% reduced fall damage. Functionally, increases the fall speed at which you die by 50%.",-,800,-
+dasp,Legs,Long Distance Runner,Reduces running stamina drain by 15%.,-,"1,100",-
+dasp,Tail,Tail Attack,An attack that causes light damage and causes knockback.,15 + 6 Knockback,100,4s
+dasp,Voice,Tyrant Roar,Increases the damage of all Tyrannosaurs in your group by 15% within 30 meters for 80 seconds. Able to stack up to 2 times. Can be used solo. Costs 15 Stamina to use.,+15% per stack,700,200s
+dasp,Voice,Shattering Cry,"Reduces Fracture healing for all creatures not in your group within 50 meters by 35% for 120 seconds. If target is fully Bone Broken when the debuff is applied, they will retain 60% of Fracture after they finished healing. Costs 10 Stamina to use.",-,500,180s
+dasp,Voice,Rampage,"Deal up to 50% increased damage for 30 seconds when below 50% health, scaling with the amount of health missing. This ability can be used if Deafened. Costs 10 Stamina to use.",up to +50%,700,180s
+duck,Passives,Ironclad,10% increased armor.,-,FREE,-
+duck,Generic,Nictitating Membrane,"See clearer when underwater, during fog, and during rainstorms. Also passively tracks the distance to the nearest fish within 100 meters.",-,FREE,-
+duck,Head,Wring Out,Instantly make yourself dry. Grants Wetness Immunity for 60 seconds. Removed if you enter water.,-,800,75s
+duck,Senses,Light Feathers,15% reduced sprinting stamina cost to 1.887 (53 seconds) from 2.22 (45 seconds) while dry.,-,900,-
+duck,Senses,Drenched Blows,Deal 20% increased damage to wet targets.,0.2,700,-
+duck,Front Limb,Riptide,"A claw attack that applies Bleed. Base damage is increased by 50% more damage if you are wet, and an additional up to 50% if the target is wet. This attack cools down faster while you are wet.","50 (75 + 0.5 Bleed if one condition is met, 100 + 0.5 Bleed if both conditions are met)",900,20s (10s when wet)
+duck,Front Limb,Hemorrhage Claw,"A claw attack that deals low damage and low bleed. Upon striking a target, it applies 1 stack of 'Hemorrhage' that lowers bleed heal of the target by 20% and increases bleed damage for 60 seconds. Stacks up to 2 times.",40 + 0.5 Bleed,400,16s
+duck,Front Limb,Claw Frenzy,"Charge forward, attacking with up to 8 claw swings. Deals 50% more damage if the target is dry. This attack consumes 50% less stamina if you are dry. You are immune to knockback for the duration of the charge. Only usable on land. Costs 10 Stamina to use (5 Stamina to use when dry).","12-42 + 5 Knockback (228 with all hits, 342 when target is dry)",500,20s
+duck,Front Limb,Claw Attack,"A claw attack that applies bleed. This attack's base damage is increased by 50% while you are dry, plus an additional 50% if the target is also dry.","35 + 0.4 Bleed (52.5 if one condition is met, 70 if both conditions are met)",FREE,1.5s
+duck,Front Limb,Backhand,"A directional claw attack that deals low damage and causes knockback. If used while swimming, it splashes all targets in front of you within 25 meters, making them wet.",50 + Knockback,"1,000",4s
+duck,Hide,Waterlogged,"Gain 20% increased swimming speed and dry out slower while on land. Additionally, you will now drain the stamina of creatures latched or clamped onto you by up to 100% based on your wetness amount, and become up to 1,000 combat weight heavier when wet.",-,800,-
+duck,Hide,Parched Scales,Increases stamina recovery by 15% and dry faster on land. Sprint up to 10% faster (from 800 to 880) when dry on land.,-,800,-
+duck,Legs,Webbed Feet,15% reduced fast swimming stamina drain.,-,800,-
+duck,Legs,Burly,Increases stamina regeneration by 10% and Fracture healing by 20%.,-,800,-
+duck,Legs,Braced Legs,"While dry, reduces uphill slowdown by 50%, increases downhill speed by 5%, and reduces falling damage by 10%.",-,"1,100",-
+duck,Tail,Water Dodge,Activate to quickly dodge while swimming or diving. The direction of the dodge is based upon your movement. Costs 8 Stamina to use.,-,100,10s
+duck,Tail,Tail Attack,Causes knockback.,15 + 12 Knockback,200,4s
+duck,Tail,Juke,Rapidly turn to face behind you and change your direction. Costs 8 Stamina to use.,-,700,10s
+duck,Voice,Water Spout,"Spray water in an area 40 meters around you, draining your thirst by 15% and making yourself and all enemies nearby wet. Cannot be used underwater. This ability can be used if Deafened.",-,500,30s
+duck,Voice,Murder Goose,"Removes all knockback from your attacks, but increases your attack damage by 50% for 30 seconds. This ability can be used if Deafened. Costs 8 Stamina to use.",0.5,900,180s
+duck,Voice,Hiss,Reduces incoming damage by 15% for 60 seconds. Costs 8 Stamina to use.,-15%,100,300s
+duck,Voice,Goose Honk,Increase knockback by 50% for your attacks for 60 seconds. Costs 8 Stamina to use.,-,300,120s
+chicken,Passives,Double Jump,Able to jump again mid-air. Only usable for the first 2 seconds after leaving the ground.,-,FREE,Until landed
+chicken,Passives,Lucky Feather,"Survive one fatal attack if you have more than 40% health. It will bring you to a minimum of 200 health and 50 stamina and grants 10 seconds of immunity to all damage. While immune, you cannot deal any damage. Can only activate once every 5 minutes.",-,FREE,300s
+chicken,Passives,Strong Grip,Gain 200% increased armor for 5 seconds. Must be latched to activate. Buff is decaying over time.,-,FREE,-
+chicken,Generic,Slicer,"A bite that deals low damage, but tears meat from the target. Eating the torn meat restores 5 health per second (2.5 health per second if bleeding) for 20 seconds, maximum once per 60 seconds. This meat cannot be dropped.",20 (-50% latched),400,5s (60s for meat part)
+chicken,Head,Raptor Strikes,"A quick attack that increases in power with each hit. Deals increased damage while latched. Stacks up to 5 times, each stack increasing damage by +20%, stacks last 30 seconds.",6-42 (-25% latched),500,1s
+chicken,Head,Bite,Causes medium damage.,50 (-50% latched),FREE,1s
+chicken,Senses,Pack Hunter,Increased health recovery by 25% while equipped. Buff all Raptors in group when 2 or more Deinonychus with Pack Hunter are within 75 meters: 2 Pack Hunters: 20% increased damage. 3 Pack Hunters: 25% decreased pounce stamina drain.,-,800,-
+chicken,Senses,On Alert,"After standing still for 10 seconds, activate this ability to look around a 200 meter range. Footsteps by other players will appear in a radius on the player’s UI, showing their direction.",-,700,-
+chicken,Senses,Escape Artist,Move 20% faster for 30 seconds after ripping a meat chunk with Slicer.,-,300,-
+chicken,Hide,Static Cling,Stamina drains 50% slower while latched.,-,400,-
+chicken,Hide,Meat Shield,"When pounced on a group member, redirect most damage they would receive to yourself. You are now immune to Knockback when using Pounce and while latched.",TBD,800,-
+chicken,Hide,Loose Down,Heal 20 stamina when hit by an attack. Can only be triggered once every 60 seconds. Does not work while latched.,-,800,60s
+chicken,Legs,Pounce,"Latch onto another creature, allowing you to perform attacks and other abilities. Release from the latch by jumping. Will automatically release when out of stamina. Deal 50% less damage while pounced.",-,400,8s
+chicken,Tail,Sever Tendon,"A kick attack usable on ground or latched. While latched, it will deal bleed damage. Otherwise, hitting applies the 'Sliced' debuff. Sliced reduces the movement speed of the target by 2%, and stacks up to 5 times. Upon reaching 5 stacks of Sliced, the target gains immunity to any additional Sliced stacks for 5 minutes. Debuff is not applied if used while latched. Costs 7.5 Stamina to use.",50 (+ 0.2 bleed -50% damage latched),500,10s (3s latched)
+chicken,Tail,Tail Fan,Activate for a quick forward boost of speed. Costs 5 Stamina to use.,-,250,6s
+chicken,Voice,Rat Out,"A call that makes all creatures within 20 meters perform a broadcast call. All affected creatures in your group will gain a 20% increased trot movement speed for 30 seconds. Cannot use while in combat, and deactivates if combat is triggered. Must be in a group to use. Costs 10 Stamina to use.",-,700,300s
+chicken,Voice,Mob Rally,A call that increases damage while pounced by 20%. Stacks up to 10 times. Costs 4 Stamina to use.,+20% (while latched),500,60s
+chicken,Voice,Distracting Chatter,A call that increases all group members armor by 25% within 50 meters until you are hit for up to 10 seconds. Must be in a group to use.,-,800,3s (30s if interrupted)
+eo,Passives,Armored Skull,Take no extra damage from head attacks.,-,FREE,-
+eo,Passives,Ironclad,10% increased armor.,-,FREE,-
+eo,Head,Head Slam,A slamming headbutt attack that costs stamina and deals high damage. Costs 3 Stamina to use.,85,900,5s
+eo,Head,Headbutt,A quick headbutt attack that causes high damage.,55,FREE,1.5s
+eo,Head,Block,"Negates damage of an incoming attack if it connects with the head, neck, or front of the body for up to 6 seconds. Uses stamina when activated.",-45% (-90% with Bony Frill),600,3s
+eo,Senses,Sharpen Horns,"Sharpen your horns on the ground, increasing damage output by 15% for 60 seconds. Costs 20 Stamina to use.",+15% (+30% with Honed Edge),"1,200",180s
+eo,Senses,Horn Lock,Gain a 20% armor increase for 30 seconds for each hit received while using Block. Stacks up to 5 times.,-,600,-
+eo,Senses,Frilled Bond,Increases damage by 10% and armor by 10% to yourself and any Ceratopsians in your group within 50 meters. Stacks up to 4 times.,+10% per stack,700,-
+eo,Hide,Honed Edge,"Sharpen Horns now has a 90 second cooldown, provides a +30% damage increase, and costs 10 Stamina to use.",-,800,-
+eo,Hide,Headstrong,"Attacks that hit your head now provide 2 stacks of 'Headstrong' for 30 seconds. Upon reaching 10 stacks, you grant yourself and all group members within 50 meters a full 'Headstrong' buff that reduces sprinting stamina cost by 100% for 30 seconds. You gain 4 stacks instead of 2 if you were using Block when hit.",-,800,45s
+eo,Hide,Bony Frill,Block now uses 50% less stamina and provides 50% damage resistance.,-,800,-
+eo,Legs,Strong Legs,Take 60% less knockback and 15% increased Fracture healing.,-,"1,100",-
+eo,Legs,Overrun,"Reduces your Charge stamina cost by 50%, and reduces the minimum Stamina required to use Charge to 15.",-,500,-
+eo,Legs,Backlash,"When attacked from the rear, automatically retaliate with a tail attack that causes light damage and knockback.","70 (Actually 35, ability is currently bugged and applies damage twice.) + 8 Knockback",800,8s
+eo,Back Limb,Charge,"Charge forward in a line at a speed of 1600 for up to 7 seconds, causing damage to anything you hit. Cannot be interrupted by Knockback. Must have a minimum of 30 (one third) Stamina to use. Costs 2 Stamina per second to use.",100,"1,100",75s
+dolphin,Passives,Strong Grip,Gain 200% increased armor for 10 seconds. Must be latched to activate. Buff is decaying over time.,-,FREE,-
+dolphin,Passives,Nictitating Membrane,"Gain the ability to dive underwater and increases water mobility. See clearer when underwater, during fog, and during rainstorms. Also passively tracks the distance to the nearest fish within 100 meters.",-,FREE,-
+dolphin,Passives,Strong Nose,Cannot be knocked off while latched.,-,FREE,-
+dolphin,Generic,Bite,A bite attack that causes bleed. Can trigger 'Bloodthirsty' if equipped.,40 + 0.2 Bleed (-50% latched),FREE,1.5s
+dolphin,Generic,Pounce,"Latch onto another creature, allowing you to perform attacks and other abilities. Release from the latch by jumping. Will automatically release when out of stamina. Deal 50% less damage while latched.",-,"1,200",10s
+dolphin,Head,Thrash,An attack that causes heavy damage and high bleed. Can trigger 'Bloodthirsty' if equipped.,50 + 0.5 Bleed (-50% latched),200,4s
+dolphin,Head,Joust,"Wind up a headbutt attack, and release it for a quick forward boost while dealing damage. Inflicts Bleed based on how long it's held. 20% reduced movement speed while winding up. Can trigger 'Bloodthirsty' if equipped. Costs 5 Stamina to use.",65 + 0.4 Bleed,"1,100",7s
+dolphin,Senses,Juggernaut,"Your attacks become up to 25% stronger when moving fast and running, also become up to 5% weaker when moving slowly or standing still.",-5,"1,000",-
+dolphin,Senses,Frenzy,25% increased stamina recovery when within 50 meters of a bleeding creature.,-,"1,000",-
+dolphin,Senses,Braced Impacts,"Successfully landing a Joust attack increases your armor by 2x for 1 second, and restores 3 stamina.",-,"1,100",-
+dolphin,Senses,Bloodthirsty,"While landing an attack that deals bleed, heal 15% health over 60 seconds. 50% less effective when Bleeding. Works through combat timer. Can be triggered only once every 90 seconds.",-,"1,200",-
+dolphin,Hide,Slippery Scales,"While wet, your bucking is 25% stronger.",-,600,-
+dolphin,Hide,Hydrofoil,"After leaving the water and reentering it, you'll gain 20% increased swim speed for 3 seconds. Cannot be triggered from delatching.",-,800,-
+dolphin,Tail,Lunge,Lunge forward when in water. Deals no damage. Costs 10 Stamina to use.,-,300,8s
+dolphin,Voice,Chatter,Call increasing swim speed of group members by 4% for 60 seconds within 30 meters. Stacks up to 5 times. Can be used solo. Cannot be used while in combat.,-,700,30s
+dolphin,Voice,Mob Rally,A call that increases group members' damage while pounced by 20% within 50 meters. Stacks up to 10 times. You must be able to pounce to receive the buff.,+20% while latched,500,
+hatz,Passives,Glider,Use less stamina while wings are fully spread in a glide.,-,FREE,-
+hatz,Passives,Strong Jaws,12.5% increased bucking resistance.,-,FREE,-
+hatz,Generic,Clamp,Bite and hold onto enemies with a combat weight of 2100 or less to carry them around for as long as your stamina allows. Holding onto the creature will slowly drain your stamina by 0.25 per second. Can be used flying. Costs 8 Stamina to use.,1,600,7s
+hatz,Head,Peck,A quick peck attack. Restore 2 Stamina per second for 5 seconds for every attack you inflict. Deals no damage to grounded targets while flying.,60 while landed 50 to aerial targets while flying,FREE,1.5s
+hatz,Head,Peck Barrage,A quick attack that hits 3 times and increases in power with each hit. Can only be used while grounded. Gain 50% increased knockback resistance while active.,"40, 46, 52",500,4s
+hatz,Senses,Flock Mob,Increase your and all grouped flyers' attack damage by 10% and armor by 10% within 50 meters. Stacks up to 2 times. Each grouped flyer in range will grant you a stack. Can be used solo.,0.1,800,-
+hatz,Senses,Corpse Stealer,"Passively tracks dinosaur carcasses within 250 meters. Gain 25% increased eating speed. While on the ground, gain 25% slower hunger drain. While on the ground and within 50 meters of a player's corpse, gain 30% increased turn rate. Eating another player's corpse grants the 'Ravenous' health recovery buff for 30 seconds, healing 1% of total health per second for a total of 30% of max health. Activates only once every 4 minutes. Healing is reduced if bleeding. Works through combat timer.",-,"1,000",240s
+hatz,Senses,Forceful Blows,50% increased attack knockback.,-,700,-
+hatz,Front Limb,Flail,"Thrash in a small Area of Effect using your wings, dealing damage and pulling flying players towards you in a 15 meter radius. While airborne, deals no damage or knockback to grounded dinosaurs. Any dinosaur in water, latched on/carried by yourself will not be affected. Increases armor by 25% and makes you immune to impact damage while active. Costs 2 Stamina to use.",50,700,10s
+hatz,Front Limb,Barrel Roll,"Quickly dart forward dealing damage and knockback to all flying players in a small Area of Effect of 12 meters. While airborne, deals no damage or knockback to grounded dinosaurs. Any dinosaur in water, latched on/carried by yourself will not be affected. Costs 2 Stamina to use.",50 + 15 Knockback 50 + 22 Knockback with Forceful Blows,700,12s
+hatz,Front Limb,Wing Beat,"Deals light damage, scaling with the distance, and heavy knockback to all dinosaurs in front of you. Can apply 'Dazed'. Deals less damage to carried dinosaurs. Any dinosaur in water, latched on/carried by yourself will not be affected. While airborne, deals no damage or knockback to grounded dinosaurs. Not usable in water.","5 + 4 (16) Knockback while landed 10 + 15 Knockback to aerial targets while flying 
+5 + 6 (24) Knockback with Forceful Blows 
+10 + 22 Knockback with Forceful Blows to aerial targets while flying",400,5s
+hatz,Front Limb,Stab,"A high damage peck. Can only be used while grounded. Deals normal and armor piercing damage, counting as 2 hits.",40 + 40 Piercing,300,4s
+hatz,Hide,Feathery Hide,"Build up 1 stack of 'Feathery Hide' every 15 seconds, for a maximum of 5 stacks, increasing armor by 5% per stack. Only build up while you are not flying. Quickly decays once flying by 1 stack every 5 seconds.",-,800,-
+hatz,Hide,Sky's Shadow,"Gain 30% increased knockback resistance. You and all group members within 50 meters, if flying, will receive 25% less aerial based Area of Effect damage and 50% less impact damage. You need to be in range of group members to receive the buff.",-,"1,000",-
+hatz,Hide,Preened Feathers,Use 35% less stamina when flying.,-,800,-
+hatz,Legs,Crash Landing,"After landing, increases jump height and reduces sprinting stamina cost by 50% for 10 seconds. Can only be triggered every 60 seconds.",-,400,60s
+hatz,Legs,Aerial Mastery,"While in the air, all aerial attacks take 50% less stamina and have reduced cooldowns by 25%.",-,"1,000",-
+hatz,Voice,Death Croak,"A call that can be activated while grounded and within 50 meters of a player's corpse. Provides 50% increased stamina recovery, 20% increased armor, and status healing by 50% for 45 seconds. Costs 10 Stamina to use.",-,800,150s
+hatz,Voice,Strong Beak,Reduces Clamp cooldown and stamina cost by 50% for 60 seconds.,-,800,180s
+hatz,Voice,Rest Stop,"Regenerate 100% of your stamina over 15 seconds. If uninterrupted, jumping, sprinting, and flying consume no stamina for 5 seconds. Ability locks you in place and cannot be used in combat.",-,800,60s
+hatz,Voice,Dazing Bellows,"Increases Wing Beat damage by 100%. Your Area of Effect attacks now apply 'Dazed' for 120 seconds. While Dazed, targets have reduced movement speed by 5% and can't use active abilities. Targets can only be Dazed every 40 seconds. Costs 5 Stamina to use.",-,800,180s
+iggy,Passive,Bipedal,"Pressing the crouch button will instead raise you up onto 2 legs into a bipedal stance. While bipedal, gain increased turning speed and +20% stamina recovery.",-,Free,-
+iggy,Passive,Planted Feet,Negate all knockback while bipedal.,-,800,-
+iggy,Generic,Thumb Barrage,A quick attack that increases in power with each hit. Forces you into bipedal stance.,"40, 46, 52",FREE,2.5s
+iggy,Senses,Trampling Feet,Gain x3 trample damage. Group members are now immune to your trample damage.,-,700,-
+iggy,Senses,Retaliate,"While bipedal, deal 20% increased damage for 2 seconds after being hit with an attack.",0.2,700,-
+iggy,Senses,Family Chorus,"Increase stamina recovery by 10% when note grouped. While grouped, you and each Hadrosaur within 50 meters gain 10% stamina recovery. Stacks up to 4 times.",-,800,-
+iggy,Front Limb,Running Start,Gain x2 acceleration while not bipedal.,-,800,-
+iggy,Front Limb,Quadrapedal,"Deal 20% increased damage while not bipedal. Applies to Charge, Back Kick, Tail Attack, and Arm Slam (despite this ability being only usable from bipedal stance).",0.2,700,-
+iggy,Front Limb,Block,"Negates 50% damage of an incoming attack if it connects with the head, neck, or body. Can hold for up to 4 seconds. Costs 5 Stamina to use + 0.5 Stamina per second. Forces you into bipedal stance.",-50%,600,3s
+iggy,Front Limb,Arm Slam,"While standing bipedal, slam your arms down to inflict armor piercing damage. Cannot be interrupted by Knockback.",80 Piercing + 20 Fracture,800,5s
+iggy,Hide,Thick Scutes,Improves health recovery rate by 20%.,-,800,-
+iggy,Hide,Second Wind,Gain 150% increased stamina recovery for 8 seconds after receiving a hit in combat.,-,"1,200",8s
+iggy,Hide,Resilient Scales,Increases bleed and venom healing by 20%.,-,800,-
+iggy,Legs,Hero's Stand,Landing any attack against an enemy will give you 1 stack of 'Heroic' that lasts 5 seconds. Reaching 3 stacks 'Heroic' will apply 'Hero's Stand' to all group members within 50 meters that increases their attack damage by 25% for 20 seconds. Additional applications of 'Hero's Stand' will refresh the duration.,0.25,800,-
+iggy,Legs,Gauntlets,Improves armor by 20% while bipedal.,-,800,-
+iggy,Legs,Braced Legs,"Reduces uphill slowdown by 50%, increases downhill speed by 5%, and reduces falling damage by 10%.",-,800,-
+iggy,Back Limb,Tail Attack,An attack that causes light damage. Causes Knockback.,20 + 6 Knockback,100,4s
+iggy,Back Limb,Pivot,Improves turn speed by 30% while bipedal.,-,800,-
+iggy,Back Limb,Charge,Charge forward in a line for up to 5 seconds causing damage to anything you hit. Costs 5 Stamina to use + 7.5 Stamina per second.,85,"1,200",20s
+iggy,Back Limb,Back Kick,A kick attack that causes high damage. Requires slow movement to use. Costs 10 Stamina to use.,70,800,3.5s
+kai,Passives,Nictitating Membrane,"Gain the ability to dive underwater and increases water mobility. See clearer when underwater, during fog, and during rainstorms. Also passively tracks the distance to the nearest fish within 100 meters.",-,FREE,-
+kai,Head,Neck Swipe,"Swipe your neck left, right, or forward to deal medium damage and knockback.",40 + 8 Knockback,FREE,1s
+kai,Senses,Pod Swimmer,10% decreased swim stamina drain. Reduces Lunge cooldown by 25%.,-,900,-
+kai,Senses,Musician,20% faster vocal ability cooldowns.,-,700,-
+kai,Senses,Armada,Increase your and all grouped aquatic dinosaurs' attack damage by 10% and armor by 10% within 50 meters. Stacks up to 2 times. Each grouped aquatic dinosaur in range will grant you a stack.,0.1,800,-
+kai,Front Limb,Strong Flippers,10% increased stamina regeneration in water. Reduces Lunge stamina cost by 25%.,-,900,-
+kai,Front Limb,Fluke Slap,Swing your front flippers around to slap targets. Causes high damage. Must be in water to use. Costs 5 Stamina to use.,70,500,5s
+kai,Front Limb,Barrel Roll,Quickly dart forward dealing damage and knockback to all swimming and diving dinosaurs in an 8 meter Area of Effect. Costs 5 Stamina to use.,85 + 15 Knockback,700,12s
+kai,Hide,Resilient Scales,"Increases Bleed heal, Fracture heal, Poison heal, Venom heal, and Toxin heal by 20%.",-,800,-
+kai,Hide,Beachcomber,Gain 80% increased land speed and 50% stamina regen while on land. Prevents dehydration while on land.,-,"1,100",-
+kai,Hide,Healing Presence,Resting or sleeping will increase your and all group members' healing by 25% when within a 10 meter radius. Has no effect when in combat.,-,800,-
+kai,Back Limb,Lunge,Lunge forward when in water. Costs 10 Stamina to use.,-,300,8s
+kai,Voice,Offensive Calls,Provides two combat-based voice call abilities: Gurgle and Call to Arms. See 'Details' for more information.,-,500,-
+kai,Sub-Voice,Gurgle,Increase knockback for your attacks for 60 seconds. This ability can be used if Deafened. Costs Stamina to use.,TBD,-,120s
+kai,Sub-Voice,Call to Arms,Increases attack damage by 25% for all group members within 30 meters for 90 seconds. Can apply to yourself while 'Deafened'. Costs Stamina to use.,0.25,-,240s
+kai,Sub-Voice,Rumble,Gain Knockback Immunity for yourself and all group members within 50 meters for 45 seconds. Only affects targets in water. Buff ends as soon as the target leaves water. Can apply to yourself while 'Deafened'.,-,-,180s
+kai,Voice,Defensive Calls,"Provides three survival-based voice call abilities: Hustle, Rejuvenating Roar, and Rallying Horn. See 'Details' for more information.",-,500,-
+kai,Sub-Voice,Hustle,"Increases group members' trotting speeds (ground, water, and air) by 20% within 75 meters for 300 seconds. Can apply to yourself while 'Deafened'.",-,-,300s
+kai,Sub-Voice,Rejuvenating Roar,All group members within 30 meters heal status effects 100% faster for 30 seconds. Can apply to yourself while 'Deafened'.,-,-,300s
+kai,Sub-Voice,Rallying Horn,Increases armor by 10% for all group members within 30 meters for 90 seconds. Can apply to yourself while 'Deafened',-,-,180s
+kentro,Passives,Spiked Hide,Protective spikes that inflict bleed if they are hit with an attack.,1 + 0.15 Bleed,FREE,N/A
+kentro,Head,Spit,"Spit on all enemies within 10 meters to weaken their attack damage by 15% for 25 seconds. Stacks up to 2 times. If enemies reach 2 stacks of spit on them, they will become immune to any future Spit attacks for 5 minutes.",-15% per stack,500,60s
+kentro,Senses,Spiked Gathering,"Increases reflect damage by 10% for each Stegosaurus, Miragaia, and Kentrosaurus in your group within a 50 meter range. Stacks up to 5 times. You also gain immunity to reflect damage from your group members and 10% increased armor.",-,800,
+kentro,Senses,Fresh Blood,Increases attack by 10% when within 50 meters of a bleeding creature.,0.1,"1,000",-
+kentro,Senses,Bloodlust,"All attacks deal 5% less base damage, but gain 20% increased bleed damage.",-5% +20% Bleed,800,-
+kentro,Hide,Dense Plates,Increases health recovery rate by 25%.,-,"1,100",-
+kentro,Hide,Resilient Spikes,"Increases Bleed, Fracture, Poison, Venom, and Toxin heal by 20%.",-,"1,100",-
+kentro,Hide,Regenerative Spines,Spines spent from Puncture will regenerate 25% faster.,-,800,-
+kentro,Legs,Long Distance Runner,Reduces running stamina drain by 15%.,-,900,-
+kentro,Legs,Counter Turn,"Upon entering combat, gain 50% turning speed for 20 seconds. Has a 2 minute cooldown, cools down when in combat.",-,600,120s
+kentro,Legs,Braced Legs,"Reduces uphill slowdown by 50%, increases downhill speed by 5%, and reduces falling damage by 10%.",-,800,-
+kentro,Back Limb,Juke,Rapidly turn to face behind you and change your direction. The direction of your turn is based on camera direction. Costs 2.5 Stamina to use.,-,500,10s
+kentro,Back Limb,Death Rattle,Rattle spikes to increase damage by 25% for 45 seconds. Costs 15 Stamina to use.,0.25,700,300s
+kentro,Tail,Puncture,"Tail attack that will deal low damage and turns you 90 degrees, but will break off one of your tail spines and impale it into your target. Punctured enemies will suffer increased bleed damage and have reduced bleed heal rate by 5% per stack. Debuff lasts 60 seconds unless refreshed by a new Puncture. Each of your missing tail spines will regrow in 1 minute. The direction of your attack is based on camera direction.",10 + 90° turn,500,1.5s
+kentro,Tail,Tail Swing,Charge up the attack and inflict bleed based on how long it's held. The direction of your attack is based on camera direction.,75 + 0.75 Bleed,700,3s
+kentro,Tail,Tail Attack,An attack that causes medium damage and low bleed. The direction of your attack is based on camera direction.,40 + 0.4 Bleed,FREE,2s
+kentro,Tail,Detonate,"A tail attack in a 4.5 meter radius that converts bleed status effects on the enemy into instant raw damage. If there are no bleed effects on the enemy, it instead only deals very low damage. Costs 5 Stamina to use.",20 + 0-112.5 depending on Bleed,800,8s
+lamb,Character Trait,Bipedal,"Pressing the crouch button will instead raise you up onto 2 legs into a bipedal stance. While bipedal, gain increased turning speed and +20% stamina recovery. Provides 2.5x damage boost to Front Kick.",-,FREE,-
+lamb,Senses,Musician,20% faster vocal ability cooldowns.,-,700,-
+lamb,Senses,Forceful Blows,50% increased attack knockback.,-,700,-
+lamb,Senses,Family Chorus,"Increase Stamina recovery by 10% when not grouped. While grouped, you and each Hadrosaur within 50 meters gain 10% stamina recovery. Stacks up to 4 times.",-,300,-
+lamb,Front Limb,Kick,A kick attack that causes medium damage. Deal 150% increased damage if in bipedal stance.,30 (75 bipedal),FREE,2s
+lamb,Hide,Streamlined,Increases swim speed and swim turning speed by 10%.,-,800,-
+lamb,Hide,Protector,"Increases your armor by 10% and all grouped Camptosaurus, Struthiomimus, Kentrosaurus or Pachycephalosaurus armor by 25% within 75 meters.",-,800,-
+lamb,Hide,Resilient Scales,Increases bleed and venom healing by 20%.,-,800,-
+lamb,Hide,Healing Presence,Resting or sleeping will increase your and all group members healing by 100% when within a 10 meter radius. Has no effect when in combat.,-,800,-
+lamb,Legs,Strong Legs,Take 60% less knockback and 15% increased Fracture healing.,-,"1,100",-
+lamb,Legs,Shove,"Lunge forward, knocking back enemies. Costs 4 Stamina to use.",20 + 20 Knockback,500,5s
+lamb,Legs,Long Distance Runner,Reduces running stamins drain by 15%.,-,"1,100",-
+lamb,Legs,Braced Legs,"Reduces uphill slowdown by 50%, increases downhill speed by 5%, and reduces falling damage by 10%.",-,"1,100",-
+lamb,Back Limb,Rodeo Kick,A powerful kick that spins in a circle and causes knockback. Cannot be interrupted by Knockback. Costs 10 Stamina to use.,80 + 15 Knockback,500,4s
+lamb,Back Limb,Webbed Feet,10% increased swim speed and 50% decreased swim stamina drain.,-,100,-
+lamb,Back Limb,Back Kick,A kick attack that causes medium damage. Requires slow movement to use.,50,500,3s
+lamb,Tail,Tail Attack,Causes knockback.,20 + 9 Knockback,100,4s
+lamb,Tail,Dunking Kick,A kick that deals medium damage and propels you forward. Provides a passive 10% increased swimming speed and 20% increased swim turn speed. Only usable while swimming.,50,500,2s
+lamb,Tail,Armored Tail,Damage and status effects inflicted to your tail is dramatically reduced.,-95% to tail,700,-
+lamb,Voice,Survival Calls,"Provides three survival-based voice call abilities: Hustle, Guiding Beacon, and Slow Digestion.",-,500,-
+lamb,Sub-Voice,Hustle,A call that increases your group's trotting speed by 20% for 5 minutes within 75 meters. Costs 10 Stamina to use.,-,-,300s
+lamb,Sub-Voice,Guiding Beacon,"All group members within 75 meters receive significantly reduced damage for 5 minutes. However, affected group members will deal no damage for the duration of this buff. Costs 25 Stamina to use.",-90%,-,300s
+lamb,Sub-Voice,Slow Digestion,All group members within 75 meters receive 30% slower food and water drain for 5 minutes. Costs 10 Stamina to use.,-,-,150s
+lamb,Voice,Healing Calls,"Provides three healing-based voice call abilities: Healing Call, Primal Mend, and Rejuvenating Roar.",-,500,-
+lamb,Sub-Voice,Primal Mend,A call that increases your healing rate by 2x for 60 seconds. Healing is reduced if bleeding. Works through combat timer. Can apply to yourself while 'Deafened'. Costs 12 Stamina to use.,-,-,180s
+lamb,Sub-Voice,Healing Call,A call that grants a health restoration buff to all party members within 30 meters for 60 seconds. Healing is reduced if bleeding. Works through combat timer. Applies only to Herbivores. Can apply to yourself while 'Deafened'.,-,-,300s
+lamb,Sub-Voice,Rejuvenating Roar,All group members within 30 meters heal status effects twice as quickly for 60 seconds. Can be used solo. Applies only to Herbivores. Can apply to yourself while 'Deafened'. Costs 15 Stamina to use.,-,-,300s
+lamb,Voice,Combat Calls,"Provides three combat-based voice call abilities: Call to Arms, Rallying Horn, and Blaring Cry.",-,500,-
+lamb,Sub-Voice,Call To Arms,Apply a 25% attack damage increase for all group members within 30 meters for 90 seconds. Costs 25 Stamina to use.,0.25,-,300s
+lamb,Sub-Voice,Rally Horn,Apply a 25% armour increase for all group members within 30 meters for 90 seconds. Costs 25 Stamina to use.,-,-,180s
+lamb,Sub-Voice,Blaring Cry,All enemies within 30 meters deal 25% reduced damage for 90 seconds. Costs 25 Stamina to use.,-25%,-,240s
+laten,Passives,Moonlight Hunter,Gain 15% increased damage and 7.5% increased movement speed during night.,-,FREE,-
+laten,Passives,Strong Grip,Gain 200% increased armor for 5 seconds. Must be latched to activate. Buff is decaying over time.,-,FREE,-
+laten,Head,Raptor Strikes,"A quick attack that increases in power with each hit. Deals increased damage while latched. Stacks up to 5 times, each stack increasing damage by +35%, stacks last 30 seconds.",7-54.25 (-25% latched),500,1s
+laten,Head,Mangle,"A bite attack that deals bleed damage to the target. While latched, this attack becomes a powerful attack that costs 2 Stamina to use.",30 + 0.4 Bleed (90 damage -50% while latched),300,5s (1.5s while latched)
+laten,Head,Bite,Causes medium damage.,40 (-50% latched),FREE,1s
+laten,Senses,Skittish,Reduces Pounce's cooldown time by 50%,-,800,-
+laten,Senses,Nocturnal,Increases stamina recovery by 50% during the night.,-,800,-
+laten,Senses,Bloodlust,"All attacks deal 5% less base damage, but 20% increased bleed damage.",-5% +20% Bleed,800,-
+laten,Hide,Scatter,Leap high into the air when detaching from pounced enemies.,-,300,-
+laten,Hide,Revitalize,"While low on health, gain dramatically increased health recovery until health is healed to 25%.",-,800,-
+laten,Hide,Night Stalker,"Gain 30% increased bleed, venom, poison, and toxin heal rate during night.",-,900,-
+laten,Legs,Ripping Kick,"Lunge forward, dealing medium bleed damage. Costs 4 Stamina to use.",30 + 0.3 Bleed,500,3s
+laten,Legs,Puncture,A kick attack that can be used only while pouncing. Lowers bleed heal of the target by 20% and increases bleed damage for 60 seconds. Stacks up to 2 times.,30 (-50% latched),300,15s
+laten,Legs,Pounce,"Latch onto another creature, allowing you to perform attacks and other abilities. Release from the latch by jumping. Will automatically release when out of stamina. Deal 50% damage while latched.",-,400,12s
+laten,Legs,Leaping Start,"After crouching for 10 seconds, sprint forward to gain a 50% speed boost for 10 seconds. Only usable out of combat, and will disable upon entering combat.",-,800,-
+laten,Tail,Tail Fan,Activate for a quick forward boost of speed. Costs 5 Stamina to use.,-,250,6s
+laten,Tail,Moon Runner,Sprinting requires 25% less stamina during nighttime.,-,800,-
+laten,Tail,Featherweight,Survive any fatal fall. Leaves you with 1 health. Can only be triggered every 30 seconds.,-,250,30s
+laten,Voice,Mob Rally,A call that increases damage while pounced by 20% to group members within 50 meters for 30 seconds. Stacks up to 10 times. Costs 4 Stamina to use.,+20% while latched,500,60s
+laten,Voice,Lord of Terrors,"A call usable only during the night that removes 10% of stamina from all creatures within 100 meters, and reduces their damage by 10% for 30 seconds if the target is not in combat already. Costs 5 Stamina to use.",-,200,240s
+laten,Voice,Hiss,Reduces incoming damage by 50% for 60 seconds. Costs 5 Stamina to use.,-50%,500,240s
+laten,Voice,Call of the Night Terrors,Every Latenivenatrix in your group gains 15% increased stamina recovery and 15% increased damage for 1 minute. Stacks up to 10 times. Can only be used during night. Costs 12.5 Stamina to use.,0.15,1000,120s
+meg,Head,Heavy Bite,A high damage attack.,80,400,7s
+meg,Head,Viper Strikes,Fast attack that causes light damage and venom.,35 + 0.4 Venom,FREE,1s
+meg,Senses,Twilight Menace,Gain 20% increased stamina regeneration during night.,-,700,-
+meg,Senses,Nictitating Membrane,See clearer underwater.,-,450,-
+meg,Senses,All For One,"Gain 8% increased damage, which stacks up to 5 times, and 10% increased health recovery rate when in a group with other carnivores of 3 token size or less. Health recovery does not stack.",+8% per stack,"1,000",-
+meg,Hide,Toxic Immunity,Become immune to venom and poison damage.,-,700,-
+meg,Hide,Streamlined,Increases swim speed and swim turning speed by 10%.,-,900,-
+meg,Legs,Dive,Become able to dive underwater. Increases oxygen by 300%. Stamina recovers in water when not sprinting.,-,"1,600",-
+meg,Back Limb,Webbed Feet,Increases swim speed by 10% and decreases swim stamina drain by 20%.,-,300,-
+meg,Back Limb,Leap,"Increases jump height by 50%, improves control mid-air by 3x, and decreases fall damage.",-,"1,200",-
+meg,Voice,Toxic Scream,Increases outgoing venom damage by 100% for 60 seconds. Costs 25 Stamina to use.,+100% Venom,1000,300s
+metri,Passive,Twilight Menace,20% increased stamina regeneration during night.,-,FREE,-
+metri,Passive,Noxious,"Gain 'Noxious' stack(s) when you consume mushrooms, noxious meat, or carrion. These stacks can be used to trigger effects on specific abilities. Stacks up to 20 times. Each stack decays every 120 seconds. You are able to eat mushrooms even while not hungry.",-,FREE,-
+metri,Head,Bite,Causes low damage. Deal 15% increased damage at night.,25 (28.75 at night),FREE,0.5s
+metri,Head,Toxin Bite,Deals Toxin and medium damage. Further increases effects if you have at least one 'Noxious' stack. Consumes a stack of 'Noxious' on hit. Costs 2.5 Stamina to use.,35 + 0.2 Toxin (49 + 0.28 Toxin with Noxious stacks),800,2s
+metri,Head,Noxious Frenzy,"Reset all your ability cooldowns, excluding this one. Needs at least 10 'Noxious' stacks to be usable. Consumes all 'Noxious' stacks.",-,600,240s
+metri,Senses,Toxic Presence,Increases Toxin damage by 35%. Increases Poison damage by 35%.,-,700,-
+metri,Senses,Prowler,"While it is day, increases damage resistance by 10%. While it is night, decreases land sprinting stamina cost by 15%.",-,800,-
+metri,Senses,Musician,20% faster vocal ability cooldowns.,-,700,-
+metri,Front Limb,Claw Attack,A claw attack that causes medium damage. Deal 15% increased damage at night.,40 (46 at night),200,1.1s
+metri,Front Limb,Toxin Slash,A claw attack that causes high damage. Deals toxin damage if you have a stack of 'Noxious'. Consumes a stack of 'Noxious' on hit. Costs 2.5 Stamina to use.,40 (+ 0.4 Toxin with Noxious stacks),"1,000",2s
+metri,Front Limb,Claw Barrage,A low damaging attack that increases by 25% for every hit you land. Costs 1.5 Stamina to use.,"18, 22.5, 27, 31.5 (99 total per barrage)",500,4.5s
+metri,Hide,Resilient Scales,20% increased bleed and venom healing. Further increases effects to 40% if you have at least one 'Noxious' stack.,-,800,-
+metri,Hide,Putrid Scales,Attackers take 0.25 Poison damage. Needs at least one 'Noxious' stack to be active.,Reflect 1.5 damage and 0.25 Poison damage,"1,100",-
+metri,Hide,Healing Presence,Resting or sleeping will increase your and all group members' healing by 25% when within a 10 meter radius. Has no effect when in combat. Range is increased at night by 100%. Further increases healing and range by 25% if you have at least one 'Noxious' stack. Applies only to carnivores.,-,800,-
+metri,Legs,Leap,"Increases jump height. Increase maximum fall death by 10% . Reduces jump stamina cost by 15%. With at least one 'Noxious' stack, further increases jump height, increases maximum fall death by 15%, and reduces jump stamina cost by 30%.",-,"1,200",-
+metri,Legs,Kick,"A kick attack that causes medium damage. Deals knockback if you have at least one 'Noxious' stack. Costs 5 Stamina to use during day, 2.5 Stamina to use at night.",30 (+ 8 Knockback with Noxious stacks),600,4s
+metri,Legs,Braced Legs,"Reduces uphill slowdown by 50%, increases downhill speed by 5%, and reduces fall damage by 10%. Further increases effects if you have at least one 'Noxious' stack.",-,"1,100",-
+metri,Tail,Tail Attack,Causes knockback.,20 + 8 Knockback,100,4s
+metri,Voice,Healing Calls,"Provides three healing-based voice call abilities: Hustle, Healing Call, and Rejuvenating Roar.",-,500,-
+metri,Sub-Voice,Hustle,"Increases group members' trotting speeds (ground, water and air) by 20% and stamina recovery by 10% within 75 meters for 300 seconds. Applies only to carnivores. Can apply to yourself while 'Deafened'. Costs 5 Stamina to use.",-,-,300s
+metri,Sub-Voice,Healing Call,A call that grants a health restoration buff to all party members within 30 meters for 60 seconds. Healing is reduced if bleeding. Works through combat timer. Applies only to Carnivores. Can apply to yourself while 'Deafened'. Costs 12 Stamina to use.,-,-,180s
+metri,Sub-Voice,Rejuvenating Roar,All group members within 30 meters heal status effects 100% faster for 60 seconds. Can be used solo. Applies only to carnivores. Can apply to yourself while 'Deafened'. Costs 15 Stamina to use.,-,-,300s
+metri,Voice,Debuff Calls,"Provides three debuff-based voice call abilities: Intimidating Screech, Sundering Cry, and Draining Scream",-,500,-
+metri,Sub-Voice,Intimidating Screech,All enemies within 40 meters deal 25% reduced damage for 60 seconds. Costs 20 Stamina to use.,-,-,300s
+metri,Sub-Voice,Sundering Cry,Reduce armor of all enemies within 40 meters by 15% for 60 seconds. Costs 20 Stamina to use.,-,-,300s
+metri,Sub-Voice,Draining Scream,Increases sprinting stamina consumption of all enemies within 30 meters by 25% for 60 seconds. Costs 20 Stamina to use.,-,-,300s
+mira,Passives,Paralysis,"Attacking Miragaia applies Paralysis, which increases ability cooldowns up to 20% and reduces speed up to 10%. At full Paralysis, attackers will be briefly paralyzed. Once an attacker has been fully paralyzed, they will become immune to paralysis application or effects for 30 seconds. Apply 0.2 Paralysis when hit.",-,FREE,-
+mira,Head,Spit,"Spit on all enemies within 10 meters to weaken their attack damage by 15% for 25 seconds. Stacks up to 2 times. If enemies reach 2 stacks of spit on them, they will become immune to any future Spit attacks for 5 minutes.",-15% per stack,500,60s
+mira,Senses,Spiked Gathering,"Increases reflect damage by 10% for each Stegosaurus, Miragaia, and Kentrosaurus in your group within a 50 meter range. Stacks up to 5 times. You also gain immunity to reflect damage from your group members and 10% increased armor.",-,800,-
+mira,Senses,Mudblock,"While covered in mud, gain 20% increased Bleed, Fracture, Venom, and Poison healing.",-,400,-
+mira,Senses,Envenomation,"All attacks deal 5% less base damage, but gain 20% increased venom or toxin damage (dependent on your equipped Hide ability).",-5% Damage +20% Venom or Toxin,800,-
+mira,Hide,Venom Spines,"Inflict Venom damage to enemies that attack you. Also applies venom damage to all your tail-based attacks. Venom dramatically reduces stamina recovery rate. 0.5 venom on tail attack, 1 on tail swing, 0.5 on lash, and 0.25 per hit on tail barrage. Reflect 0.1 venom when hit.",-,250,-
+mira,Hide,Toxic Barbs,"Inflict Toxin damage to enemies that attack you. Also applies toxin damage to all your tail-based attacks. Your opponents will die if their health drops below the toxin level (up to 20% of their maximum health). 0.25 toxin on tail attack, 0.75 on tail swing, 0.5 on lash, and 0.25 per hit on tail barrage. Reflect 0.1 toxin when hit.",-,250,-
+mira,Hide,Muddy Scales,"Activate to roll in dirt, covering yourself with mud. Gain up to 50% increased armor based on the amount of mud currently applied. Activate multiple times to apply more mud. Mud will wash off in water or rain. Additionally, gain 5% increased Paralysis damage while this Hide is equipped.",-,400,-
+mira,Legs,Strong Legs,Take 60% less knockback and 15% increased Fracture healing.,-,"1,100",-
+mira,Legs,Counter Turn,"Upon entering combat, gain 50% increased turning speed for 20 seconds. Has a 2 minute cooldown.",-,600,120s
+mira,Legs,Caked On,Mud effects will persist 24x longer when wet. 15% increased stamina recovery rate if you are covered in mud.,-,300,-
+mira,Back Limb,Lash,"Flail your tail aggressively, knocking back all enemies behind you for medium damage and applying venom or toxin (dependent on your equipped Hide ability). Costs 10 Stamina to use.",80 + 5 Knockback (+ 0.5 Venom OR + 0.5 Toxin dependent on Hide),500,6s
+mira,Tail,Tail Swing,Charge up the attack and inflict more venom or toxin based on how long it's held (dependent on your equipped Hide ability). The direction of the tail swing depends on your camera aim.,95 (+ 1 Venom OR + 0.75 Toxin dependent on Hide),700,6s
+mira,Tail,Tail Barrage,A low damaging tail attack that swings 3 times consecutively with a wide range. Applies more stacks of venom or toxin for every hit (dependent on your equipped Hide ability).,"40, 40, 40 + 4 Knockback (+ 0.3125 Venom per hit OR + 0.3125 Toxin per hit dependent on Hide)",300,6s
+mira,Tail,Tail Attack,A medium damaging tail attack that also applies venom or toxin (dependent on your equipped Hide ability). The direction of the tail swing depends on your camera aim.,55 (+ 0.5 Venom OR + 0.25 Toxin dependent on Hide),FREE,3s
+mira,Tail,Detonate,"A tail attack in a 6 meter radius that converts all venom status effects on the enemy into instant raw damage. If there are no venom effects on the enemy, it instead only deals very low damage. Costs 1 Stamina to use.","20 + 0-112.5 depending on Venom or Toxin (112.5 requires the enemy have full Venom or Toxin, does not stack if recipient has both)",800,8s
+pachy,Generic,Headbutt,A quick headbutt attack. Can be used while running.,60,FREE,1.5s
+pachy,Head,Skull Bash,"A head attack with a windup. Deals low damage but applies the 'Dazed' effect to its target for 3 seconds. While Dazed, movement speed is reduced by 5% and the target is unable to use active abilities. Targets can only be Dazed every 40 seconds. If this attack misses any target, you will become Dazed instead. Costs 5 Stamina to use.",40 + 3s Dazed,900,10s
+pachy,Head,Charged Headbutt,Charged up headbutt that deals low damage and Fracture. Fracture amount inflicted is determined by the length the ability is charged for. Costs 5 Stamina to use.,50 + 20 Fracture,500,10s
+pachy,Head,Batter,"A low damaging headbutt attack that rapidly turns to face behind you and change your direction, also knocking away all nearby targets. Your turn direction is determined by your camera. Costs 5 Stamina to use.",80 + 10 Knockback + Turn 180°,800,4s
+pachy,Head,Airhead,Deal 25% more damage while jumping and boosts air control by 100%,+25% while jumping,800,-
+pachy,Senses,Surefooted,Reduces fall damage by 15%. Decreases Dodge cooldown by 50%.,-,800,-
+pachy,Senses,Home Run,Improves Charge knockback amount by 25%.,-,800,-
+pachy,Senses,Hardheaded,Decreases Skull Bash and Charged Headbutt cooldowns by 50%.,-,800,-
+pachy,Hide,Second Wind,Gain 150% increased stamina recovery for 8 seconds after receiving a hit in combat.,-,"1,200",8s
+pachy,Hide,Kickboxer,Change Charge and Kick attack by: - Increasing damage by 50% - Increasing their Stamina cost by 20% - Removing their knockback,+50% to Charge and Kick,800,-
+pachy,Hide,Domed Skull,Improves knockback on all attacks by 25% and decreases Charge stamina cost by 50%.,-,800,-
+pachy,Legs,Kick,A kick attack that causes medium damage and deals Knockback. Costs 5 Stamina to use.,40 (46 while airborne) + 10 Knockback,500,5s
+pachy,Legs,Charge,"Charge forward in a line for up to 6 seconds causing damage to the first thing you hit. Causes Knockback. Costs 2.5 Stamina per second to use, up to 15 Stamina.",80 + 20 Knockback,"1,100",15s
+pachy,Back Limb,Strong Legs,Take 60% less knockback and 15% increased Fracture healing.,-,500,-
+pachy,Back Limb,Long Distance Runner,Reduces running stamina drain by 15%.,-,"1,100",-
+pachy,Back Limb,Braced Legs,"Reduces uphill slowdown by 50%, increases downhill speed by 5%, and reduces falling damage by 10%.",-,800,-
+pachy,Tail,Dodge,A leaping dodge to the left or right based on camera direction. Costs 2.5 Stamina to use.,-,500,8s
+pycno,Passives,Cracked Scutes,"Build up 1 stack of Cracked Scutes every 15 seconds, for a maximum of 5 stacks, even through combat (even if it doesn't say that). Provides 5% armor per active stack. Incoming attacks will remove 1 stack per hit. While a stack is active, attackers receive reflect damage when hitting certain areas of the body.",-,FREE,15s per stack
+pycno,Head,Head Slam,"A head slam with a slow windup but deals high damage. Landing this attack will also hurt yourself with high recoil damage up to 20% of your Max Health. If this attack misses any target, you will become Dazed for 3 seconds. Costs 5 Stamina to use.",120 + 110 Recoil,900,7.5s
+pycno,Head,Horn Swipe,Causes heavy knockback and uses stamina. Costs 2.5 Stamina to use.,5 + 22 Knockback,600,5s
+pycno,Head,Headbutt,A quick headbutt attack that will also hurt yourself with 10% recoil damage up to 25% of your Max Health.,60 + 10 Knockback,400,3s
+pycno,Head,Bite,Causes medium damage.,50,FREE,1.5s
+pycno,Senses,Stability,Juke and Charge both use 25% less stamina and have a 25% faster cooldown.,-,"1,000",-
+pycno,Senses,Mouth Guard,"While holding an item, receive less recoil damage from your attacks, up to 25% based on the size of the item held.",-,"1,000",-
+pycno,Senses,Juggernaut,"Your attacks become up to 25% stronger when moving fast and running, also become 5% weaker when moving slowly or standing still.",25%/-5%,"1,000",-
+pycno,Hide,Thick Scutes,Improves health recovery by 20%.,-,800,-
+pycno,Hide,Second Wind,Gain 150% increased stamina recovery for 8 seconds after receiving a hit in combat.,-,"1,200",8s
+pycno,Hide,Resilient Scales,Increases bleed and venom healing by 20%.,-,800,-
+pycno,Legs,Strong Legs,Take 60% less knockback and 15% increased Fracture healing.,-,"1,100",-
+pycno,Legs,Long Distance Runner,Reduces running stamina drain by 15%.,-,"1,100",-
+pycno,Legs,Braced Legs,"Reduces uphill slowdown by 50%, increases downhill speed by 5%, and reduces falling damage by 10%.",-,"1,100",-
+pycno,Back Limb,Knockout,Charge up this tail attack to inflict heavy knockback based on how long it's held.,65 + 16 Knockback,700,20s
+pycno,Back Limb,Juke,Rapidly turn to face behind you and change your direction. The direction of your turn is based on camera direction. Costs 4 Stamina to use.,-,500,8s
+pycno,Back Limb,Charge,"Charge forward in a line for up to 6 seconds, causing damage to anything you hit. Costs up to a maximum of 25 Stamina.",90 + 12 Knockback,"1,100",20s
+pycno,Voice,Deep Breaths,Improves stamina recovery rate for you and all group members within 20 meters while trotting and walking by 40% for 2 minutes. Stacks up to 2 times. Works in combat.,-,500,240s
+pycno,Voice,Bulldozer,Boosts knockback by 25% for 120 seconds for you and all nearby group members. Stacks up to 3 times. Costs 5 Stamina to use.,-,500,120s
+ramp,Passives,Lucky Feather,"Survive one fatal attack if you have more than 25% health. It will bring you to a minimum of 200 health and 50 stamina and grants 10 seconds of immunity to all damage. While immune, you cannot deal any damage. Can only activate once every 5 minutes.",-,FREE,300s
+ramp,Passives,Night Walker,25% increased stamina regeneration and 25% reduced food drain during night.,-,FREE,-
+ramp,Passives,Strong Claws,Cannot be knocked off while latched.,-,FREE,-
+ramp,Passives,Strong Grip,Gain 200% increased armor for 10 seconds. Must be latched to activate. Buff is decaying over time.,-,FREE,-
+ramp,Generic,Pounce,"Latch onto another creature, allowing you to perform attacks and other abilities. Release from the latch by jumping. Will automatically release when out of stamina. Deal 50% less damage while latched.",-,FREE,5s
+ramp,Head,Spearing Bite,An attack which inflicts no damage to players. Deals additional damage to critters. Completely refills your stamina upon catching a fish.,0,FREE,1.5s
+ramp,Head,Scab Picker,"While pounced on an enemy, peck to heal yourself and also reduce the target's bleed heal rate by 7% for 7.5 seconds. Stacks up to 5 times. Reaching max stacks applies the 'Woozy' debuff, which reduces the target's turn speed by 50% for 10 seconds. Targets will be immune to 'Woozy' for 60 seconds afterwards. While not pounced, behaves as a weak bite that can damage critters.",,300,2s
+ramp,Senses,Flock Migration,"When gliding, stamina drains 2 times slower. If gliding within 50 meters of any other flying player, stamina drains 4 times slower instead. Does not stack.",-,800,-
+ramp,Senses,Plague Carrier,"While latched onto an enemy, continuously applies stacks of 'Pestilent' to it and any nearby enemies within 50 meters. Each stack of 'Pestilent' reduces health recovery by 5%, stamina recovery by 5%, and bleeding recovery by 2.5%, and increases food and water drain by 50%, up to 10 stacks. The latched target gains stacks faster over time. User is immune to 'Pestilent'.",-,"1,000",-
+ramp,Front Limb,Dart,"A rapid dart forward usable in air, water, and on land. Deals additional damage to critters. Deals no damage to players. Costs 2.5 Stamina to use.",0,200,9s
+ramp,Hide,Seabird,"Double duration of the Fishy Breath effects. Gain 15% faster swimming speed, 20% faster swimming stamina recovery, 10% faster turning while in the water, and grants Nictitating Membrane. See clearer when underwater, during fog, and during rainstorms. Also passively tracks the distance to the nearest fish within 100 meters.",-,500,-
+ramp,Hide,Echoing Calls,Buffs all call durations by 25% during the day and 50% during the night. 20% increased stamina recovery.,-,600,-
+ramp,Hide,Deep Claws,"30% increased bucking resistance. While low on health, gain dramatically increased health recovery until health is healed to 25%. Allows healing while flying. (Healing while flying is reduced to 25% of normal healing rate)",-,400,-
+ramp,Legs,Shared Rhythm,"While latched onto another creature, reduces their ability cooldowns by 12.5% and stamina cost by 10%. Stacks up to 4 times.",-,"1,000",-
+ramp,Legs,Infectious Touch,"While latched onto another creature not in your group, reduces their armor by 10% per stack and steadily applies venom, poison, and toxin. Stacks up to 2 times.",-,"1,000",-
+ramp,Voice,Rat Out,A vocal call that will make all creatures not in your group within 20 meters perform a broadcast call. Group members also get a 20% trot speed increase for 30 seconds if they are within 100 meters. Buff will be removed if you are in combat or enter combat. Costs 10 Stamina to use.,-,700,300s
+ramp,Voice,Plotting Whispers,Increases the attack damage of a pounced creature by 20% for 30 seconds. Can only be used while latched and persists after unlatching.,-,600,-
+ramp,Voice,Fishy Breath,Applies your most recent buff acquired from eating a fish to all creatures in your group within 50 meters. Only usable while in a group. Costs 5 Stamina to use.,-,300,600s
+ramp,Voice,Bloodthirsty Hunters,Increases bleed damage of grouped dinosaurs by 25% for 60 seconds within a 30 meter radius. Only usable while in a group. Costs 5 Stamina to use.,-,"1,000",300s
+sarco,Passives,Armored Tail,Damage and status effects inflicted on your tail is dramatically reduced.,-95%,FREE,-
+sarco,Passives,Nictitating Membrane,"Gain the ability to dive underwater and increases water mobility. See clearer when underwater, during fog, and during rainstorms. Also passively tracks the distance to the nearest fish within 100 meters.",-,FREE,-
+sarco,Passives,Biding Time,"While not moving in water, reduce hunger and thirst depletion by 50%. Slowly replenishes thirst over time while in the water. Aquatic critters, excluding Alpha critters, will not attack you unless you are sprint swimming.",-,FREE,-
+sarco,Passives,Dreadful Presence,"All nearby enemies replenish food and water 50% slower within 50 meters. An indicator will display the closest grounded target, drinking or eating, affected by Dreadful Presence. Does not stack. Must be in water to use.",-,FREE,-
+sarco,Generic,Clamp,"Bite and hold onto enemies with a combat weight of 3001 or less for as long as your stamina allows, can move and drag them around. Immune to knockback while carrying another dinosaur. Costs 10 Stamina to use.",0,FREE,3s
+sarco,Head,Swerve,A bite attack that rapidly turns to face behind you and change your direction. Deals 35% increased damage if on land. Costs 7.5 Stamina to use.,60 (81 on land),600,15s
+sarco,Head,Bite,Causes medium damage. Performs a Death Roll when biting a clamped target.,50 (50 while deathrolling),FREE,1.5s
+sarco,Head,Asphyxiating Snap,Drains 35 oxygen and 15 stamina from target and deals low damage. Must be in water to use.,40,900,10s
+sarco,Senses,Strong Jaws,Increases Clamp's Death Roll damage by 35%. 25% reduced bucking effectiveness.,+35% to Death Roll (50 to 67.5),800,-
+sarco,Senses,Patient Lurking,50% increased oxygen recovery. 50% decreased oxygen drain and 20% increased damage while underwater.,+20% underwater,800,-
+sarco,Senses,Caked On,Mud effects will persist 24x longer when wet. 15% increased stamina recovery rate if you are covered in mud.,-,300,-
+sarco,Hide,Strong Lungs,50% increased armor while in water. 50% decreased swim stamina drain. 100% increased oxygen recovery.,-,800,-
+sarco,Hide,Rugged Scales,25% increased armor. 50% increased health recovery while on land. 30% increased status effect recovery rate while in water.,-,800,-
+sarco,Hide,Muddy Scales,"Activate to roll in dirt, covering yourself with mud. Gain up to 50% increased armor based on the amount of mud currently applied. Activate multiple times to apply more mud. Mud will wash off in water or rain.",-,400,-
+sarco,Legs,Mud Slide,"While covered in mud, dash forward for at least 4 seconds, depleting mud as you slide. Sliding downhill increases speed, while sliding uphill reduces speed and may end the slide early. Duration scales with mud amount and ends when you run out. Carrying a dinosaur while sliding will increase your mud depletion rate. Costs 5 Stamina to activate.",-,800,15s
+sarco,Legs,Gator Dash,"Activate for a quick forward boost of speed. Can be used for up to 10 seconds on land or up 2.5 seconds in water. On land, costs 10 Stamina to activate, and 2 Stamina per second to use. In water, costs 5 Stamina to activate, and 5 Stamina per second to use.",-,900,15s on land 10s in water
+sarco,Legs,Braced Legs,"Reduces uphill slowdown by 50%, increases downhill speed by 5%, and reduces falling damage by 10%.",-,"1,100",-
+spino,Passives,Nictitating Membrane,"Gain the ability to dive underwater and increases water mobility. See clearer when underwater, during fog, and during rainstorms. Also passively tracks the distance to the nearest fish within 100 meters.",-,FREE,-
+spino,Passives,Ironclad,10% increased armor.,-,FREE,-
+spino,Head,Lunging Snap,Activate while swimming to dart forward and bite. Deals 35% increased damage if underwater. Can be used as a regular bite outside of water. Costs 8 Stamina when used in water.,80 in water (108 underwater) 50 on land,900,10s in water 3s on land
+spino,Head,Snapjaw,"A wind up attack applying 1 stack of 'Sliced' debuff. Adding 2 stacks instead of 1 if you are wet. Sliced reduces the movement speed of the target by 2%, and stacks up to 5 times. Upon reaching 5 stacks of Sliced, the target gains immunity to any additional Sliced stacks for 5 minutes.",65,500,6s
+spino,Head,Bite,Causes medium damage.,50,FREE,1.75s
+spino,Senses,Waterborne,"While wet on land, gain up to 3x acceleration and up to 10% armor based on your wetness amount. Makes you dry out slower outside of water. 15% increased stamina recovery rate while Swimming.",-,800,-
+spino,Senses,Shockwave,Area of Effect attacks now have 25% increased range. Area of Effect attacks deal 50% reduced damage to group members.,-,800,-
+spino,Senses,Patient Lurking,50% increased oxygen recovery. 50% decreased oxygen drain and 20% increased damage while underwater.,-,800,-
+spino,Front Limb,Drenched Strike,A claw attack that causes medium damage. Deals 65% increased damage if you are wet. Applies the 'Sliced' Debuff if you are dry. Costs 4 Stamina to use.,50 (82.5 if condition is met),600,6s
+spino,Front Limb,Claw Slam,"Slam your claws into the ground repeatedly up to 5 times, dealing damage in an Area of Effect of 5 meters. Continuously drains stamina while active. Deals knockback. Can be interrupted by knockback. Costs 4 Stamina to use.",40 + 0.5 Knockback,"1,000",15s
+spino,Front Limb,Claw Attack,A claw attack that causes medium damage.,60,200,2s
+spino,Hide,Streamlined,15% increased swim speed. 50% increased health recovery rate while diving.,-,900,-
+spino,Hide,Solar Powered,"While it is day, increases stamina recovery by 50%. While it is night, increases armor by 10%.",-,800,-
+spino,Hide,Bright Sail,"Increases your armor up to 15% if inflicted with Bleed, Venom, Toxin, Poison, or Fracture. Scales based on status amount. Does not stack from multiple status effects.",-,"1,100",-
+spino,Back Limb,Tide Strider,"While wet on land, gain up to 35% increased stamina recovery rate based on your wetness amount.",-,800,-
+spino,Back Limb,Lunge,Lunge forward when in water. Deals no damage. Costs 5 Stamina to use.,-,400,25s
+spino,Tail,Undertow,Swing your tail to create a water vortex that creates a 15 meter Area of Effect damaging all nearby dinosaurs and pulling players towards you. Provides 50% armor for the duration of the attack when used in water. Usable on land as a normal Area of Effect attack dealing small knockback. Costs 4 Stamina to use.,70 in water 90 + 10 Knockback on land,"1,200",15s
+spino,Tail,Sweep,An attack that causes high damage. Deals knockback if in water.,65 (+ 8 Knockback in water),100,7s on land 15s in water
+spino,Voice,Rallying Call,A call that increases all group members' armor by 25% within 50 meters. Costs 8 Stamina to use.,-,800,240s
+spino,Voice,Dazing Bellows,"Your Area of Effect attacks now apply 'Dazed' for 120 seconds. While Dazed, targets have reduced movement speed by 5% and can't use active abilities. Targets can only be Dazed every 40 seconds. Costs 8 Stamina to use.",-,800,180s (40 seconds for the dazed immunity. Description incorrectly says 20)
+stego,Senses,Lone Survivor,10% increased armor and x2 acceleration when not in a group.,-,700,-
+stego,Senses,Fresh Blood,Increases attack by 10% when within 50 meters of a bleeding creature.,0.1,"1,000",-
+stego,Hide,Solar Powered,Increases stamina recovery by 50% during the day.,-,800,-
+stego,Hide,Resilient Scales,Increases bleed and venom healing by 20%.,-,800,-
+stego,Hide,Tough Scutes,Increases armor by 15%.,-,800,-
+stego,Legs,Pivot,Standing in place for 5 seconds dramatically increases your turning speed by 75%. Lasts until you move.,-,900,-
+stego,Back Limb,Long Distance Runner,Reduces running stamina drain by 15%.,-,"1,100",-
+stego,Tail,Tail Attack,An attack that causes heavy bleed damage.,80 + 0.75 Bleed,FREE,2s
+stego,Tail,Tail Swing,Charge up the attack and inflict bleed based on how long it's held. Costs 15 Stamina to use.,160 + 2 Bleed,700,8s
+struthi,Passives,Feathery Hide,"Build up 1 stack of Feathery Hide every 30 seconds, for a maximum of 5 stacks. Reduces incoming damage by 5% per active stack. Incoming attacks will remove 1 stack per hit. Does not regenerate during combat.",-,FREE,30s
+struthi,Passives,Double Jump,Able to jump again mid-air. Only usable for 2 seconds after leaving the ground.,-,FREE,Until Landed
+struthi,Head,On Alert,"After standing still for 5 seconds, activate this ability to look around a 200 meter range. Footsteps by other players will appear in a radius on the player’s UI, showing their direction.",-,FREE,-
+struthi,Senses,Scout,Gain 10% increased trotting speed.,-,"1,200",-
+struthi,Senses,Herbivore Parade,"Increase stamina recovery by 10% when not grouped. In a group, your stamina recovery increases by 10% per nearby Camptosaurus, Struthiomimus, Kentrosaurus, or Pachycephalosaurus, up to 10 stacks within 75 meters. If you have Herbivore Parade equipped, all listed species grant stacks; otherwise, only those with this ability do.",-,800,-
+struthi,Senses,Escape,"When hit for the first time, gain a 20% speed boost for 10 seconds but deal no damage while it's active. Can only be triggered once every 5 minutes.",-,800,300s
+struthi,Front Limb,Slipstream,Increases the movement speed of all herbivores trotting or sprinting behind you by 15% while this ability is active. Cancels when in combat.,-,"1,200",5s
+struthi,Hide,Thick Feathers,Increases health recovery rate by 50%.,-,700,-
+struthi,Hide,Display Feathers,Increase the duration of your calls by 20%.,-,700,-
+struthi,Hide,Hollow Bones,Reduces jumping stamina cost by 20%.,-,400,-
+struthi,Legs,Strong Legs,Take 60% less knockback and 15% increased fracture healing.,-,"1,100",-
+struthi,Legs,Long Distancd Runner,Reduces running stamina drain by 15%.,-,"1,100",-
+struthi,Legs,Leap,"Increases jump height by 50%, triples in-air control, and decreases fall damage by 20%.",-,"1,200",-
+struthi,Legs,Braced Legs,"Reduces uphill slowdown by 50%, increases downhill speed by 5%, and reduces falling damage by 10%.",-,"1,100",-
+struthi,Back Limb,Kick Barrage,"A quick attack that hits 3 times, increasing in power with each hit.","35, 40.25, 45.5",500,5s
+struthi,Back Limb,Kick,A kick attack that causes medium damage.,40,FREE,2s
+struthi,Voice,Survival Calls,Provides three survival-based voice call abilities:,-,500,-
+struthi,Sub-Voice,Hustle,A call that increases your group's trotting speed by 20% for 5 minutes within 75 meters. Costs 10 Stamina to use.,-,-,300s
+struthi,Sub-Voice,Dust Off,"Dust off group members up to 20 meters behind you, reducing sprinting stamina drain by 50% for 1 minute. This ability can be used when Deafened.",-,-,300s
+struthi,Sub-Voice,Rat Out,"A call that makes all creatures within 20 meters perform a broadcast call. All affected creatures in your group will gain 20% increased trot movement speed for 30 seconds. Cannot be used while in combat, and deactivates if combat is triggered. Must be in a group to use. Costs 20 Stamina to use.",-,-,300s
+struthi,Voice,Combat Calls,"Provides three combat-based voice call abilities: Safeguard, Tantrum and Swift Tempo.",-,500,-
+struthi,Sub-Voice,Safeguard,Increases armour by 10% for all group members within 30 meters for 25 seconds. Costs 5 Stamina to use.,-,-,5s
+struthi,Sub-Voice,Tantrum,Increases attack damage by 10% for all group members within 30 meters for 25s. Costs 5 Stamina to use.,0.1,-,5s
+struthi,Sub-Voice,Swift Tempo,Decreases ability cooldowns by 25% for all group members within 30 meters for 15s. Costs 5 Stamina to use.,-,-,2s
+sty,Passives,Spiked Frill,Attackers take damage when hitting your head or neck. Take no extra damage from head attacks.,2 + 0.2 Bleed (4 + 0.4 Bleed with albertensis subspecies),FREE,-
+sty,Head,Ram,A slow but powerful headbutt attack. Causes forward momentum when used. Costs 5 Stamina to use.,75 + 0.5 Bleed,800,7s
+sty,Head,Puncture,"Attack with your frill spines, impaling them into your target. Punctured enemies will suffer increased Bleed damage and have reduced bleed heal rate by 5% per stack. Each of your missing spines will regrow in 120 seconds.",15 + 0.25 Bleed,500,1.5s
+sty,Head,Joust,"Wind up a headbutt attack for up to 4 seconds, and release it for a quick forward boost while dealing damage. Inflicts Bleed based on how long it's held. 20% reduced movement speed while winding up. Costs 5 Stamina to use.",75 + 0.4 Bleed,"1,100",7s
+sty,Head,Headbutt,A quick headbutt attack that causes high damage and low bleed.,50 + 0.4 Bleed,FREE,2s
+sty,Senses,Frilled Bond,Increases damage by 10% and armor by 10% to yourself and any Ceratopsians in your group within 50 meters. Stacks up to 4 times.,+10% per stack,700,-
+sty,Senses,Braced Impacts,"Successfully landing a Joust attack increases your armor by 2x for 3 seconds, and restores 3 stamina.",-,"1,100",
+sty,Senses,Blunted Horns,"Ram no longer deals Bleed damage, but gains 50% increased damage and a 25% shorter cooldown.",112.5 + 0 Bleed on Ram,700,5.25s on Ram
+sty,Hide,Resilient Spikes,"Increases Bleed heal, Fracture heal, Poison heal, Venom heal, and Toxin heal by 20%.",-,"1,100",-
+sty,Hide,Regenerative Spines,25% increased stamina recovery. Spines spent from Puncture will regenerate 50% faster.,-,800,60 seconds on Puncture
+sty,Hide,Bright Crest,"Increases your damage up to 25% if inflicted with Bleed, Venom, Toxin, Poison, or Fracture. Scales based on status amount. Does not stack from multiple status effects.",up to +25%,"1,100",-
+sty,Legs,Vault,"Gain the ability to jump. Increases maximum fall death speed by 40% (from 2200 to 3080), reducing fall damage. Reduces running stamina drain by 15%.",-,"1,100",-
+sty,Legs,Charge,"Charge forward in a line at a speed of 1800 for up to 7 seconds, causing damage to anything you hit. Costs 5 Stamina to activate, and 2 Stamina per second, up to 35 Stamina to use.",90 + 1 Bleed,"1,100",30s
+sucho,Generic,Nictitating Membrane,"See clearer when underwater, during fog, and during rainstorms. Also passively tracks the distance to the nearest fish within 100 meters.",-,FREE,-
+sucho,Head,Shark Bite,"Bite attack that will deal medium damage and small bleed, but will break off one of your teeth and stick it into your target. Bitten enemies will have reduced bleed heal rate by 7.5% and increased bleed damage per stack for 60 seconds. Each tooth will regrow in 60 seconds, and regenerate 25% faster if dry.","30 + 0.4 Bleed (-7.5% to -25% bleed heal, +7.5% to +25% incoming bleed damage)",500,1.5s
+sucho,Head,Riptide,"Bite attack that bites 4 times and increases in power with each hit and deals up to 10% more damage if you are wet, and an additional up to 10% if the target is wet. This attack cools down faster while you are wet.","20, 22, 24, 26 (22-28 if one condition is met, 24-30 if both conditions are met) 92 total per barrage (100 total if one condition is met, 108 if both conditions are met)",900,10s (5s if wet)
+sucho,Head,Hooked Snap,"A bite and claw attack. Each time you catch a fish, you will now gain 2 stacks of 'Hooked Snap', up to a maximum of 20 stacks. While these stacks are active, a Hooked Snap attack will deal 50% increased damage. Each successful bite will remove 1 stack of Hooked Snap.",50 (75 with Hooked Snap stack),500,3.5s
+sucho,Head,Bite,"An attack that deals 15% more damage if you are dry, plus 15% additional damage if the target is also dry.","40 (46 if one condition met, 52 if both conditions met)",FREE,1.2s
+sucho,Senses,Strong Lungs,50% increased stamina recovery rate and 15% increased max oxygen while Swimming.,-,900,-
+sucho,Senses,Shed Teeth,Teeth lost while using Shark Bite will regenerate twice as fast.,-,800,-
+sucho,Front Limb,Claw Barrage,A low damaging attack that swings 4 times and increases for every hit you land. Deals 15% increased damage to wet targets.,"18, 22.5, 27, 31.5 (20.7, 25.2, 29.7, 34.2 to wet targets) 99 total per barrage (109.8 if condition is met)",500,3s
+sucho,Front Limb,Claw Attack,"A claw attack that applies bleed. This attack's base damage is increased by 15% while you are dry, plus an additional 15% if the target is also dry.","32 + 0.5 Bleed (36.8 if one condition is met, 41.6 if both conditions are met)",200,1.5s
+sucho,Front Limb,Backhand,"A directional claw attack that deals low damage and causes knockback. If used while swimming, it splashes all targets in front of you within 25 meters, making them wet.",40 + 16 Knockback,"1,000",5s
+sucho,Hide,Waterlogged,"Gain 20% increased swimming speed and dry out slower while on land (from 3:00 to 6:00). Additionally, you will now drain the stamina of creatures latched or clamped onto you by up to 100% faster based on your wetness amount, and become 500 combat weight heavier when wet.",-,800,-
+sucho,Hide,Thick Scutes,50% increased health recovery.,-,800,-
+sucho,Hide,Parched Scales,"Grants 50 additional maximum health, and gain 25% increased stamina recovery buff on land and sprint up to 8% faster when fully dry on land. You also now dry out much faster while on land (2:00 from 3:00). However, you are now up to 500 combat weight lighter when dry, and have 20% reduced swim speed.",-,800,-
+sucho,Legs,Strong Legs,Take 60% less knockback and 15% increased Fracture healing.,-,"1,100",-
+sucho,Legs,Braced Legs,"While dry, reduces uphill slowdown by 50%, increases downhill speed by 5%, and reduces falling damage by 10%.",-,800,-
+sucho,Tail,Tail Attack,Causes knockback.,15 + 6 Knockback,100,4s
+sucho,Tail,Lunge,Lunge forward when in water. Costs 7.5 Stamina to use.,-,"1,100",12s
+sucho,Voice,Water Spout,"Spray water in an area 25 meters all around you, draining your thirst by 15% and making yourself and all enemies nearby wet. Cannot be used underwater.",-,500,30s
+sucho,Voice,Scalding Rage,Rapidly dry off for 3 minutes. This ability cannot be activated while swimming. Grants Wetness Immunity for 60 seconds. Removed if you enter water. This ability can be used if Deafened. Costs 5 Stamina to use.,-,700,180s
+sucho,Voice,Muffled Roar,"30% increased swim speed, improves swim turning 75%, and increases all status effect healing by 50% for 3 minutes. Can only be used while diving, and will be interrupted if you exit water. Costs 10 Stamina to use.",-,700,180s
+thal,Passives,Large Crest,Receive 50% less impact damage.,-,FREE,-
+thal,Generic,Bite,Causes medium damage.,40,FREE,1.5s
+thal,Head,Tear,"Build up 1 stack of this ability every 15 seconds, for a maximum of 5 stacks, increasing damage by 4% per stack. Only builds up while you are not flying. Quickly decays once flying. Attacking another dinosaur will remove 1 stack per hit.",-,800,-
+thal,Head,Peck,"A strong bite attack against airborne targets, but weak against the rest.",70 to flying targets (30 to targets on land or water),400,1.5s
+thal,Senses,Flock Migration,"When gliding, stamina drains 2 times slower. If gliding within 50 meters of any other flying player, stamina drains 4 times slower instead. Does not stack.",-,800,-
+thal,Senses,Rest Stop,"Regenerate 100% of your stamina over 15 seconds. If uninterrupted, jumping, sprinting, and flying consume no stamina for 5 seconds. Ability locks you in place and cannot be used in combat.",-,800,60s
+thal,Senses,Dive Bomb,"Gain 50% increased flying acceleration. Avoid impact damage coming from hitting a flying target every 30 seconds. While nose diving, increases attack damage by 50% and dealt impact damage by 100%. Upon colliding with a target while nose diving, become 'Concussed' for 3 seconds. 'Concussed' makes you unable to move or use any abilities.",50% attack damage + 100% impact damage while nose diving,600,30s
+thal,Front Limb,Dodge,"Activate to quickly dodge on ground, air, or in water. The direction of the dodge is based upon your movement. Cannot be used while nose diving. Will be 25% weaker in water. Costs 8 Stamina to use.",-,600,10s
+thal,Front Limb,Barrel Roll,"Quickly dart forward dealing damage and knockback to all flying players in a small Area of Effect. While airborne, grounded dinosaurs won't be affected. Dinosaurs latched on/carried by yourself won't receive Knockback. Dinosaurs in water won't be affected. Costs 2 Stamina to use.",50 + 15 Knockback,700,12s
+thal,Front Limb,Wing Slap,Swing your wings and slap targets. Not usable while in water. Costs 4 Stamina to use.,60,500,7s
+thal,Hide,Preened Feathers,Use 35% less stamina when flying.,-,800,-
+thal,Hide,Feathery Hide,"Build up 1 stack of 'Feathery Hide' every 15 seconds, for a maximum of 5 stacks, increasing armor by 4% per stack. Only builds up while you are not flying. Quickly decays once flying. Incoming attacks will remove 1 stack per hit.",-,800,-
+thal,Hide,Featherweight,Survive any fatal impact or fall. Leaves you with 1 health. Can only be triggered every 30 seconds.,-,250,30s
+thal,Legs,Leap,60% increased jump height. 20% reduced jumping stamina cost. Drastically improves air control while jumping.,-,800,-
+thal,Legs,Broad Wingspan,Reduces stamina drain and altitude loss while gliding.,-,800,-
+thal,Legs,Aerobatic,Dodge takes 50% less stamina and its cooldown is reduced by 50%.,-,500,-
+tylo,Passives,Nictitating Membrane,"Gain the ability to dive underwater and increases water mobility. See clearer when underwater, during fog, and during rainstorms. Also passively tracks the distance to the nearest fish within 100 meters",-,FREE,-
+tylo,Passives,Robust,You are immune to all movement speed debuffs.,-,FREE,-
+tylo,Passives,Beachcomber,"Transitioning from water to land will improve grounded movement for 10 seconds: reduces sprint stamina cost by 100%, improves turning radius and provides a decaying 250% speed boost. Can only be triggered every 120 seconds.",-,FREE,120s
+tylo,Generic,Bite,Attack causing piercing damage. Can be used to chew on clamped targets. Clamped targets will receive Fracture damage.,65 Piercing (22.5 + 7.5 Fracture clamped),FREE,1.5s
+tylo,Generic,Clamp,"Bite and hold onto enemies 3200 combat weight and lower for as long as your stamina allows, can move and drag them around. Immune to knockback while carrying another dinosaur. Costs 5 Stamina to use.",30,FREE,15s
+tylo,Head,Charged Headbutt,"Wind up a headbutt attack, and release it for a quick forward boost while dealing damage. 20% reduced movement speed while winding up. Costs 5 Stamina to use.",90,"1,100",8s
+tylo,Head,Crushing Bite,Small damage and low Fracture. Can trigger a full Bone Break. Costs 2.5 Stamina to use.,45 + 20 Fracture,"1,200",4s
+tylo,Head,Bone Snap,Charge up the attack and inflict Fracture based on how long it's held. Can trigger a Bone Break on the target if they have a high amount of Fracture. Costs 10 Stamina to use.,105 + 30 Fracture,900,8s
+tylo,Senses,Shatterstride,Reduces stamina sprinting cost by 30%. Boosts swimming and diving acceleration by 100% if within 50 meters of a fractured target.,-,800,-
+tylo,Senses,Hard Skull,15% increased stamina recovery. Landing a headbutt against terrain or another player applies an Area of Effect that deals up to 30% of the damage of the headbutt.,-,"1,100",-
+tylo,Senses,Feral Instincts,Deal 10% increased piercing damage,+10% on Bite,700,
+tylo,Hide,Wide Gape,Increases carry capacity by 700. 25% increased bucking resistance.,-,700,-
+tylo,Hide,Resilient Scales,"Increases Bleed heal, Fracture heal, Poison heal, Venom heal, and Toxin heal by 20%.",-,800,-
+tylo,Hide,Pterygoid Teeth,Deal 15% more Fracture damage. Bone Snap now uses 50% less stamina.,-,700,-
+tylo,Tail,Water Dodge,Activate to quickly dodge while swimming or diving. the direction of the dodge is based upon your movement. Can uses Bone Snap while active. Costs 8 Stamina to use.,-,300,10s
+tylo,Tail,Sweep,An attack that causes high damage. Deals no knockback. Must be in water to use. Costs 5 Stamina to use.,65,200,8s
+tylo,Tail,Armored Tail,Damage and status effects inflicted to your tail is dramatically reduced.,-,700,-
+tylo,Voice,Shattering Cry,"Reduces Fracture healing for all creatures not in your group within 50 meters by 35% for 120 seconds. If target is fully Bone Broken when the debuff is applied, they will retain 60% of Fracture after they finished healing. Costs 5 Stamina to use.",-,500,150s
+tylo,Voice,Ravenous,Eating another player's corpse grants the 'Ravenous' health recovery buff for 60 seconds. Heals 1% health every second. Can be triggered only once every 240 seconds. Healing is reduced 50% if bleeding. Works through combat timer.,-,"1,000",240s
+tylo,Voice,Acoustic Debilitation,"A loud call that stuns all targets within 30 meters for 5 seconds. Only affects targets in water. While stunned, targets cannot use abilities and their speed is reduced by 15%. Stunned targets will be delatched and will drop carried dinosaur or item. Must be in water to use. Doesn't affect group members. Creatures become immune for 2 minutes after being stunned. Costs 8 Stamina to use.",-,"1,000",90s
+t-rex,Passives,Padded Soles,Faster and quieter crouch movement speed. Have boosted stamina regeneration while walking and trotting.,-,FREE,-
+t-rex,Passives,Strong Ankles,Take 25% reduced damage to hits on your legs.,-,FREE,-
+t-rex,Passives,Ironclad,10% increased armor.,-,FREE,-
+t-rex,Generic,Bite,Causes high damage and can be used to chew on clamped targets.,60 (20 + 7.5 Fracture while clamping target),FREE,1.5s
+t-rex,Generic,Clamp,"Bite and hold onto enemies with a combat weight of 2700 or less for as long as your stamina allows, can move and drag them around. Immune to knockback while carrying another dinosaur. Costs 10 Stamina to use.",30,FREE,10s
+t-rex,Head,Crushing Bite,A low damage attack that also deals low Fracture damage. Deals 25% increased damage to fractured and bone broken targets. Can trigger a full Bone Break. Costs 10 Stamina to use.,40 + 20 Fracture (50 to Fractured targets),700,5s
+t-rex,Head,Bone Snap,Charge up the attack and inflict Fracture based on how long it's held. This attack will trigger a Bone Break if it hits an opponent with a high amount of Fracture. Costs 10 Stamina to use.,85 + 30 Fracture,900,6s
+t-rex,Senses,Power Couple,"While grouped with another Tyrannosaur within 200 meters, gain 25% increased status effect recovery rate (toxin, bleed, venom, poison, and fracture) and 25% slower food and water drain.",-,"1,000",-
+t-rex,Senses,Killing Blows,Deal 20% increased damage while a creature not in your group has a fracture or bone break within 50 meters.,0.2,"1,000",-
+t-rex,Senses,Blood Rivalry,"Landing any bite attack against an enemy will give you a stack of 'Blood Rivalry'. Reaching 3 stacks will grant you a 45 second buff, increasing your Fracture damage by 50%. Stacks last 15 seconds.",+50% Fracture,800,-
+t-rex,Hide,Tyrant's Presence,"All smaller enemies 3,000 combat weight or below within a 30 meter radius lose 25% of their armor.",-,"1,000",-
+t-rex,Hide,Thick Boned,"Dramatically boosts fracture healing and become immune to bone break, except from falling.",-,"1,200",-
+t-rex,Hide,Ravenous,Eating another player's corpse grants a health recovery boost of 0.5% health per second for 60 seconds (up to 30%/240 of max health). Activates only once every 5 minutes. Healing is reduced by 50% if bleeding (up to 15%/120 of max health). Works through combat timer.,-,"1,000",240s
+t-rex,Hide,King's Mantle,"Taking hits grants a stacking 2% damage boost, up to 10%, for 10 seconds.",up to +10%,"1,200",-
+t-rex,Legs,Surprise Attack,"After crouching for 10 seconds, sprint forward to gain a 20% speed boost (from 800 to 960) and an 100% acceleration boost for 10 seconds. During this time, you are also immune to knockback.",-,"1,200",-
+t-rex,Legs,Shatterstride,"Reduces stamina sprinting cost by 20% (from 2.2 to 1.76, 45 seconds to 57 seconds). Boosts acceleration by 100% and uphill/downhill movement speed if within 50 meters of a fractured target.",-,800,-
+t-rex,Tail,Tail Attack,An attack that causes light damage and causes knockback.,15 + 9 Knockback,200,4s
+t-rex,Voice,Terrible Roar,Call that boosts damage by 25% and reduces cooldowns by 25% for all Tyrannosaurs in group within 50 meters for 60 seconds. Does not stack. Costs 10 Stamina to use.,+25% damage -25% cooldowns,700,300s
+t-rex,Voice,Shattering Cry,"Reduces Fracture healing for all creatures not in your group within 50 meters by 35% for 120 seconds. If target is fully Bone Broken when the debuff is applied, they will retain 60% of Fracture after they finished healing. Costs 5 Stamina to use.",-,500,150s
+t-rex,Voice,Rampage,"Deal up to 50% increased damage for 60 seconds when below 50% health, scaling with the amount of health missing. This ability can be used if Deafened. Costs 5 Stamina to use.",up to +50%,700,120s
+titan,Passives,Ironclad,10% increased armor.,-,FREE,-
+titan,Head,Heavy Bite,A strong but delayed bite. Costs 15 Stamina to use.,100,"1,200",15s
+titan,Head,Frenzied Tear,A low damaging series of 3 attacks that increases for every hit you land. Deals 50% more damage to bleeding targets. Gain 50% increased knockback resistance while active. Costs 5 Stamina to use.,"20, 25, 30 (30, 35, 40 to bleeding targets) 75 total (105 to bleeding targets)",600,5s
+titan,Head,Bite,A bite attack that causes bleed.,45 + 0.4 Bleed,FREE,1.5s
+titan,Senses,Fresh Blood,Increases attack by 10% when within 50 meters of a bleeding creature.,0.1,600,-
+titan,Senses,Feast,"Heavy Bite's damage is reduced by 35% (from 100 to 65) but now tears meat from the target and applies the 'Wounded' status for 60 seconds, reducing bleed healing by 10% per stack, up to 6 stacks. Eating the torn meat restores 2.25 health and 0.75 stamina per second for 20 seconds (45 health and 15 stamina total). Healing is reduced by 50% if bleeding. Works through combat timer.",-,700,-
+titan,Senses,Blood Soaked,"Each of your bite attacks now apply 'Bloadsoaked' to yourself, increasing your stamina recovery by up to 40%. Bloadsoaked will deplete over time, and quickly wash off if wet.",-,"1,000",-
+titan,Hide,Thick Scutes,Improves health recovery rate by 35%,-,800,-
+titan,Hide,Rugged Hide,"Increases Bleed heal, Fracture heal, Poison heal, Venom heal, and Toxin heal by 20%.",-,"1,100",-
+titan,Hide,Dried Blood,Bloodsoaked will deplete 9x slower.,-,500,-
+titan,Legs,Strong Legs,Take 60% less Knockback and 15% increased Fracture healing.,-,"1,100",-
+titan,Legs,Skydiver,"Take 20% reduced fall damage. Functionally, increases the fall speed death threshold by 20% (from 2000 to 2400).",-,400,-
+titan,Legs,Nimble Feet,Dash and Juke gain 33% faster cooldowns.,-,800,-
+titan,Back Limb,Juke,Rapidly turn to face behind you and change your direction. Costs 5 Stamina to use.,-,700,15s
+titan,Back Limb,Dash,Quickly dash forward for up to 3 seconds. Costs 1.5 Stamina per second to use.,-,800,20s
+titan,Tail,Tail Attack,An attack that causes light damage and causes knockback.,15 + 9 Knockback.,200,4s
+titan,Voice,Terrifying Presence,Reduces all incoming damage by 15% for 60 seconds. Costs 20 Stamina to use.,-,500,150s
+titan,Voice,Running Start,A call that ignores uphill speed reduction and increases downhill speed for 2 minutes. This ability can be used if Deafened. Costs 8 Stamina to use.,-,600,150s
+titan,Voice,Blood Chilling Roar,Reduces bleed heal for all ungrouped creatures within 50 meters by 35% for 120 seconds. Costs 8 Stamina to use.,-,500,240s
+,,,,,,
