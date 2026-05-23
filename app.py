@@ -38,6 +38,13 @@ na=False)]
         # Display Core Stats
         st.markdown(f"### 🛡️ {selected_dino} Profile")
 
+        # Add dino images
+        dino_image = dino_row['Main Dino Image']
+        if pd.notna(dino_image) and str(dino_image).strip() != "":
+            st.image(str(dino_image).strip(), use_container_width=True)
+
+        st.markdown("---") # Divider after images
+
         col1, col2 = st.columns(2)
         with col1:
             st.metric("Combat Weight", f"{int(dino_row['Combat Weight'])}")
