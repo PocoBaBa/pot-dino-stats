@@ -53,7 +53,7 @@ na=False)]
         st.markdown("---")
         build_url = dino_row['Build URL']
         if pd.notna(build_url) and str(build_url).strip() != "":
-            st.link_button(f"View {selected_dino} Build on DinoMeta.gg", build_url, use_container_width=True
+            st.link_button(f"View {selected_dino} Build on DinoMeta.gg", build_url, use_container_width=True)
 
         # 4. Filtered Abilities Section (The Sub-Page Heist Solution!)
         st.markdown("---")
