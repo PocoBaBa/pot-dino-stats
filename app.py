@@ -49,6 +49,12 @@ na=False)]
         st.markdown(f"**Clampable By:** {dino_row['Clampable By']}")
         st.markdown(f"**Subspecies Bonuses:** {dino_row['Subspecies']}")
 
+        #Build link URL
+        st.markdown("---")
+        build_url = dino_row['Build URL']
+        if pd.notna(build_url) and str(build_url).strip() != "":
+            st.link_button(f"View {selected_dino} Build on DinoMeta.gg", build_url, use_container_width=True
+
         # 4. Filtered Abilities Section (The Sub-Page Heist Solution!)
         st.markdown("---")
         st.markdown("### ⚔️ Combat Abilities")
