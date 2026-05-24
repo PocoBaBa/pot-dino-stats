@@ -9,6 +9,16 @@ if "logout_log" not in st.session_state:
 
 st.title("🦖 PoT Dino Stats Reference")
 
+# 1. Load your exported CSV files
+@st.cache_data
+def load_data():
+    dinos = pd.read_csv("dinos.csv")
+    abilities = pd.read_csv("abilities.csv")
+    return dinos, abilities
+
+try:
+    df_dinos, df_abilities = load_data()
+
 # ADD THE LOGOUT MEMORY WIDGET HERE
 with st.expander("📝 Show Logout Location Tracker"):
     st.markdown("Type your current map coordinate or homecave location next to your dino! Changes save instantly.")
@@ -40,16 +50,6 @@ for idx, row in edited_df.iterrows():
     st.session_state.logout_log[row['Dinosaur']] = row['Last Logged Location']
 
 st.markdown("---") # Neat divider separating the tracker from your search bar
-
-# 1. Load your exported CSV files
-@st.cache_data
-def load_data():
-    dinos = pd.read_csv("dinos.csv")
-    abilities = pd.read_csv("abilities.csv")
-    return dinos, abilities
-
-try:
-    df_dinos, df_abilities = load_data()
 
     # 2. Main Search Bar Interface
     search_query = st.text_input("🔍 Search Dinosaurs...", "").strip()
