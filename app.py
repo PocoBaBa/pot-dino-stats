@@ -99,12 +99,12 @@ if data_loaded:
                 return "—"
             return val_str
 
-        st.write(f"**⚔️ Damage:** {get_stars(dino_row['Damage Stars'])}")
-        st.write(f"**🛡️ Defense:** {get_stars(dino_row['Defense Stars'])}")
-        st.write(f"**🔄 Recovery:** {get_stars(dino_row['Recovery Stars'])}")
-        st.write(f"**🪵 Land Speed:** {get_stars(dino_row['Land Speed Stars'])}")
-        st.write(f"**🌊 Water Speed:** {get_stars(dino_row['Water Speed Stars'])}")
-        st.write(f"**☠️ Survivability:** {get_stars(dino_row['Survivability Stars'])}")
+        st.write(f"**⚔️ Damage:** {get_stars(dino_row['Damage'])}")
+        st.write(f"**🛡️ Defense:** {get_stars(dino_row['Defense'])}")
+        st.write(f"**🔄 Recovery:** {get_stars(dino_row['Recovery'])}")
+        st.write(f"**🪵 Land Speed:** {get_stars(dino_row['Land Speed'])}")
+        st.write(f"**🌊 Water Speed:** {get_stars(dino_row['Water Speed'])}")
+        st.write(f"**☠️ Survivability:** {get_stars(dino_row['Survivability'])}")
 
         st.markdown("---")
         st.markdown(f"**Clampable By:** {dino_row['Clampable By']}")
