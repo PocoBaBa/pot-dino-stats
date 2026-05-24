@@ -4,7 +4,42 @@ import pandas as pd
 # Basic Mobile UI Configuration
 st.set_page_config(page_title="PoT Dino Stats", page_icon="🦖", layout="centered")
 
+if "logout_log" not in st.session_state:
+    st.session_state.logout_log = {}
+
 st.title("🦖 PoT Dino Stats Reference")
+
+# ADD THE LOGOUT MEMORY WIDGET HERE
+with st.expander("📝 Show Logout Location Tracker"):
+    st.markdown("Type your current map coordinate or homecave location next to your dino! Changes save instantly.")
+
+# Generate a clean mini-table using your existing dinosaur names
+dino_names = df_dinos['Name'].tolist()
+
+# Rebuild the dataframe for editing
+log_data = pd.DataFrame({
+    "Dinosaur": dino_names,
+    "Last Logged Location": [st.session_state.logout_log.get(name, "") for name in dino_names]
+})
+
+# Display the interactive spreadsheet box
+edited_df = st.data_editor(
+    log_data,
+    column_config={
+        "Dinosaur": st.column_config.TextColumn(disabled=True), # Locks names so they can't be deleted
+        "Last Logged Location": st.column_config.TextColumn(width="large")
+    },
+    disabled=False,
+    num_rows="fixed",
+    hide_index=True,
+    use_container_width=True
+)
+
+# Save any new typed text directly into your phone browser's session memory
+for idx, row in edited_df.iterrows():
+    st.session_state.logout_log[row['Dinosaur']] = row['Last Logged Location']
+
+st.markdown("---") # Neat divider separating the tracker from your search bar
 
 # 1. Load your exported CSV files
 @st.cache_data
