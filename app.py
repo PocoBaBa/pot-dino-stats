@@ -45,7 +45,7 @@ if data_loaded:
 
         log_data = pd.DataFrame({
             "Dinosaur": dino_names,
-            "Last Logged Location": [st.session_state.logout_log.get(name, "") for name in dino_names]
+            "Last Logged Location": [saved_log.get(name, "") for name in dino_names]
         })
 
         edited_df = st.data_editor(
