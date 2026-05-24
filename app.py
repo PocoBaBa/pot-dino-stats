@@ -57,6 +57,23 @@ na=False)]
         st.markdown(f"**Clampable By:** {dino_row['Clampable By']}")
         st.markdown(f"**Subspecies Bonuses:** {dino_row['Subspecies']}")
 
+        st.markdown("---")
+        st.markdown("Attribute Ratings")
+
+        # Star display
+        def get_stars(val):
+            val_str = str(val).strip()
+            if pd.isna(val) or val_str in ["", "nan", "None"]:
+                return "-"
+            return val_str
+
+        st.write(f"**Damage:** {get_stars(dino_row['Damage'])}")
+        st.write(f"**Defense:** {get_stars(dino_row['Defense'])}")
+        st.write(f"**Recovery:** {get_stars(dino_row['Recovery'])}")
+        st.write(f"**Land Speed:** {get_stars(dino_row['Land Speed'])}")
+        st.write(f"**Water Speed:** {get_stars(dino_row['Water Speed'])}")
+        st.write(f"**Survivability:** {get_stars(dino_row['Survivability'])}")
+        
         #Build link URL
         st.markdown("---")
         build_url = dino_row['Build URL']
