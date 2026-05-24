@@ -6,7 +6,7 @@ st.set_page_config(page_title="PoT Dino Stats", page_icon="🦖", layout="center
 
 # Initialize persistent memory storage cache
 if "logout_log" not in st.session_state:
-st.session_state.logout_log = {}
+    st.session_state.logout_log = {}
 
 st.title("🦖 PoT Dino Stats Reference")
 
