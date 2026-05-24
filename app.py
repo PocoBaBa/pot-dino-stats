@@ -47,6 +47,7 @@ na=False)]
 
         col1, col2 = st.columns(2)
         with col1:
+            st.metric("Health", f"{int(dino_row['Health'])}")
             st.metric("Combat Weight", f"{int(dino_row['Combat Weight'])}")
             st.metric("Armor", f"{dino_row['Armor']}")
         with col2:
