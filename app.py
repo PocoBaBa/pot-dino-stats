@@ -73,7 +73,7 @@ if data_loaded:
         # --- PROFILE HEADER & IMAGE ---
         st.markdown(f"### 🛡️ {selected_dino} Profile")
 
-        dino_image = dino_row['Image URL']
+        dino_image = dino_row['Main Dino Image']
         if pd.notna(dino_image) and str(dino_image).strip() != "":
             st.image(str(dino_image).strip(), use_container_width=True)
 
