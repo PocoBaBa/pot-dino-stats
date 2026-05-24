@@ -1,12 +1,12 @@
 import streamlit as st
 import pandas as pd
+from streamlit_local_storage import LocalStorage
 
 # 1. Basic Mobile UI Configuration
 st.set_page_config(page_title="PoT Dino Stats", page_icon="🦖", layout="centered")
 
-# Initialize persistent memory storage cache
-if "logout_log" not in st.session_state:
-    st.session_state.logout_log = {}
+# Initialize the phone hardware local storage engine
+local_storage = LocalStorage()
 
 st.title("🦖 PoT Dino Stats Reference")
 
@@ -27,12 +27,21 @@ except Exception as e:
 
 # 3. RUN INTERFACE ONLY IF DATA LOADED SUCCESSFULLY
 if data_loaded:
+    dino_names = df_dinos['Name'].tolist()
+    
+    # Fetch save coordinates
+    saved_log = local_storage.getItem("pot_logout_locations")
+    if saved_log is None:
+        saved_log = {name: "" for name in dino_names}
+    else:
+        # Ensures new dinos get their own blank row later
+        for name in dino_names:
+            if name not in saved_log:
+                saved_log[name] = ""
 
-    # --- LOGOUT LOCATION TRACKER ---
+    # Logout Tracker
     with st.expander("📝 Show Logout Location Tracker"):
         st.markdown("*Type your current map coordinate or homecave location next to your dino! Changes save instantly.*")
-
-        dino_names = df_dinos['Name'].tolist()
 
         log_data = pd.DataFrame({
             "Dinosaur": dino_names,
@@ -51,8 +60,19 @@ if data_loaded:
             use_container_width=True
         )
 
+        # Check for new content
+        updated_log = {}
+        has_changes = False
         for idx, row in edited_df.iterrows():
-            st.session_state.logout_log[row['Dinosaur']] = row['Last Logged Location']
+            dino_name = row['Dinosaur']
+            new_loc = str(row['Last Logged Location']).strip()
+            updated_log[dino_name] = new_loc
+            if saved_log.get(dino_name) != new_loc:
+                has_changes = True
+
+        if has_changes:
+            local_storage.setItem("pot_logout_locations", updated_log)
+            st.rerun()
 
     st.markdown("---")
 
