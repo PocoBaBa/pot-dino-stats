@@ -75,7 +75,7 @@ if data_loaded:
 
         dino_image = dino_row['Image URL']
         if pd.notna(dino_image) and str(dino_image).strip() != "":
-        st.image(str(dino_image).strip(), use_container_width=True)
+            st.image(str(dino_image).strip(), use_container_width=True)
 
         st.markdown("---")
 
