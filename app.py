@@ -26,8 +26,8 @@ except Exception as e:
     data_loaded = False
 
 # 3. RUN INTERFACE ONLY IF DATA LOADED SUCCESSFULLY
-#if data_loaded:
-  #  dino_names = df_dinos['Name'].tolist()
+if data_loaded:
+    dino_names = df_dinos['Name'].tolist()
     
     # Fetch save coordinates
    # saved_log = local_storage.getItem("pot_logout_locations")
