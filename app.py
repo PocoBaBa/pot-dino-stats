@@ -75,7 +75,7 @@ if data_loaded:
        #     st.rerun()
 
  #   st.markdown("---")
-
+    
     # --- SEARCH & SELECTION INTERFACE ---
     search_query = st.text_input("🔍 Search Dinosaurs...", "").strip()
 
@@ -130,11 +130,9 @@ if data_loaded:
         st.markdown(f"**Clampable By:** {dino_row['Clampable By']}")
         st.markdown(f"**Subspecies Bonuses:**\n{dino_row['Subspecies']}")
 
-        # --- EXTERNAL BUILD URL LINK ---
-        build_url = dino_row['Build URL']
-        if pd.notna(build_url) and str(build_url).strip() != "":
-            st.markdown("---")
-            st.link_button(f"🚀 View {selected_dino} Build on DinoMeta.gg", str(build_url).strip(), use_container_width=True)
+        # --- External Interactive Map URL LINK ---
+        st.markdown("---")
+        st.link_button("Click to see interactive map on potservers.net", "https://potservers.net/map", use_container_width=True)
 
         # --- RELATIONAL COMBAT ABILITIES ---
         st.markdown("---")
